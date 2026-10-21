@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.packageinfo
+package com.resukisu.resukisu.data.packageinfo
 
 import android.app.Application
 import androidx.core.content.pm.PackageInfoCompat
@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.domain.model.InstalledPackageInfo
+import com.resukisu.resukisu.domain.model.InstalledPackageInfo
 
 class InstalledPackageRepository(
     application: Application,

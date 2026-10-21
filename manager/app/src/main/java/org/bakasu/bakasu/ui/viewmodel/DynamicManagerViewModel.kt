@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
@@ -12,13 +12,13 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.DynamicManagerApp
-import org.bakasu.bakasu.domain.model.DynamicManagerConfig
-import org.bakasu.bakasu.domain.usecase.ClearDynamicManagerUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveDynamicManagerStateUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshDynamicManagerUseCase
-import org.bakasu.bakasu.domain.usecase.SelectDynamicManagerUseCase
-import org.bakasu.bakasu.domain.usecase.SetManualDynamicManagerUseCase
+import com.resukisu.resukisu.domain.model.DynamicManagerApp
+import com.resukisu.resukisu.domain.model.DynamicManagerConfig
+import com.resukisu.resukisu.domain.usecase.ClearDynamicManagerUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveDynamicManagerStateUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshDynamicManagerUseCase
+import com.resukisu.resukisu.domain.usecase.SelectDynamicManagerUseCase
+import com.resukisu.resukisu.domain.usecase.SetManualDynamicManagerUseCase
 
 typealias DynamicManagerAppItem = DynamicManagerApp
 

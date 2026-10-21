@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 import java.io.Serializable
 import java.net.URI

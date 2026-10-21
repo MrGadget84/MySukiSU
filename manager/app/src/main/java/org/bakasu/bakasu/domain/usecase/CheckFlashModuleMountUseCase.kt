@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.flash.FlashRepository
+import com.resukisu.resukisu.data.flash.FlashRepository
 
 class CheckFlashModuleMountUseCase(private val repository: FlashRepository) {
     suspend operator fun invoke(uri: String) = repository.moduleNeedsMount(uri)

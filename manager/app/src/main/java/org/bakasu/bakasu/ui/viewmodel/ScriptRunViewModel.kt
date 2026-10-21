@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -11,17 +11,17 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.script.ParamError
-import org.bakasu.bakasu.data.script.PreparedScript
-import org.bakasu.bakasu.data.script.ReleasedException
-import org.bakasu.bakasu.data.script.ScriptRunRecord
-import org.bakasu.bakasu.domain.model.ExpectedFile
-import org.bakasu.bakasu.domain.usecase.GetLastScriptRunUseCase
-import org.bakasu.bakasu.domain.usecase.PrepareScriptUseCase
-import org.bakasu.bakasu.domain.usecase.ReleaseScriptUseCase
-import org.bakasu.bakasu.domain.usecase.RunScriptUseCase
-import org.bakasu.bakasu.domain.usecase.SaveModuleActionLogUseCase
-import org.bakasu.bakasu.ui.navigation.Route
+import com.resukisu.resukisu.data.script.ParamError
+import com.resukisu.resukisu.data.script.PreparedScript
+import com.resukisu.resukisu.data.script.ReleasedException
+import com.resukisu.resukisu.data.script.ScriptRunRecord
+import com.resukisu.resukisu.domain.model.ExpectedFile
+import com.resukisu.resukisu.domain.usecase.GetLastScriptRunUseCase
+import com.resukisu.resukisu.domain.usecase.PrepareScriptUseCase
+import com.resukisu.resukisu.domain.usecase.ReleaseScriptUseCase
+import com.resukisu.resukisu.domain.usecase.RunScriptUseCase
+import com.resukisu.resukisu.domain.usecase.SaveModuleActionLogUseCase
+import com.resukisu.resukisu.ui.navigation.Route
 
 enum class ScriptRunPhase { PREPARING, FAILED, READY, RUNNING, FINISHED }
 

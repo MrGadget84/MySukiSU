@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import android.os.Build
 import androidx.activity.compose.BackHandler
@@ -95,13 +95,13 @@ import kotlin.math.roundToInt
 import kotlin.time.Duration.Companion.milliseconds
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.ui.component.settings.AppBackButton
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.blurEffect
-import org.bakasu.bakasu.ui.theme.renderBackgroundBlur
-import org.bakasu.bakasu.ui.util.LocalPagerPage
-import org.bakasu.bakasu.ui.util.LocalSelectedPage
+import com.resukisu.resukisu.ui.component.settings.AppBackButton
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.blurEffect
+import com.resukisu.resukisu.ui.theme.renderBackgroundBlur
+import com.resukisu.resukisu.ui.util.LocalPagerPage
+import com.resukisu.resukisu.ui.util.LocalSelectedPage
 import org.koin.compose.koinInject
 
 private val SearchBarInitialHeight = 77.dp

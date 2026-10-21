@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import com.google.gson.annotations.SerializedName
 

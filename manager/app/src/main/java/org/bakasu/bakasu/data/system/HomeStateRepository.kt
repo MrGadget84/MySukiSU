@@ -1,10 +1,10 @@
-package org.bakasu.bakasu.data.system
+package com.resukisu.resukisu.data.system
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import org.bakasu.bakasu.domain.model.HomeDashboardState
+import com.resukisu.resukisu.domain.model.HomeDashboardState
 
 class HomeStateRepository {
     private val mutableState = MutableStateFlow(HomeDashboardState())

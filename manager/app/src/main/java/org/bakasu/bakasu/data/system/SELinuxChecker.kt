@@ -1,9 +1,9 @@
-package org.bakasu.bakasu.data.system
+package com.resukisu.resukisu.data.system
 
 import android.content.Context
 import com.topjohnwu.superuser.Shell
 import com.topjohnwu.superuser.io.SuFile
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 fun isSELinuxPermissive(): Boolean {
     val shell = Shell.Builder.create().build("sh")

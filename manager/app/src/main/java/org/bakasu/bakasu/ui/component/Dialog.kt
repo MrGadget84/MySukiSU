@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import android.graphics.text.LineBreaker
 import android.os.Build
@@ -56,8 +56,8 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.parcelize.Parcelize
-import org.bakasu.bakasu.domain.model.DocumentFormat
-import org.bakasu.bakasu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.DocumentFormat
+import com.resukisu.resukisu.domain.model.ModuleReadme
 
 private const val TAG = "DialogComponent"
 

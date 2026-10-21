@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.file
+package com.resukisu.resukisu.data.file
 
 import android.app.Application
 import androidx.core.net.toUri

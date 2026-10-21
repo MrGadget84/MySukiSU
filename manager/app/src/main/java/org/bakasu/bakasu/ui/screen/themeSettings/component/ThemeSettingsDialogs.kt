@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.themeSettings.component
+package com.resukisu.resukisu.ui.screen.themeSettings.component
 
 import android.graphics.Color as AndroidColor
 import androidx.compose.foundation.background
@@ -36,14 +36,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.usecase.IsSystemLanguageSettingsUseCase
-import org.bakasu.bakasu.domain.usecase.LaunchSystemLanguageSettingsUseCase
-import org.bakasu.bakasu.ui.component.settings.SettingsChooseDialog
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.viewmodel.SettingsUiAction
-import org.bakasu.bakasu.ui.viewmodel.SettingsUiState
-import org.bakasu.bakasu.ui.viewmodel.SettingsViewModel
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.usecase.IsSystemLanguageSettingsUseCase
+import com.resukisu.resukisu.domain.usecase.LaunchSystemLanguageSettingsUseCase
+import com.resukisu.resukisu.ui.component.settings.SettingsChooseDialog
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.viewmodel.SettingsUiAction
+import com.resukisu.resukisu.ui.viewmodel.SettingsUiState
+import com.resukisu.resukisu.ui.viewmodel.SettingsViewModel
 import org.koin.compose.koinInject
 
 @Composable

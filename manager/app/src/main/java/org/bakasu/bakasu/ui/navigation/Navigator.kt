@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.navigation
+package com.resukisu.resukisu.ui.navigation
 
 import android.util.Log
 import androidx.compose.runtime.mutableStateListOf

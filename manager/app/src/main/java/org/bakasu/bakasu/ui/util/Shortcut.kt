@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.util
+package com.resukisu.resukisu.ui.util
 
 import android.app.AppOpsManager
 import android.content.ComponentName
@@ -15,11 +15,11 @@ import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.core.graphics.scale
 import androidx.core.net.toUri
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.data.shell.ShortcutRepository
-import org.bakasu.bakasu.ui.MainActivity
-import org.bakasu.bakasu.ui.screen.main.ShortcutType
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.shell.ShortcutRepository
+import com.resukisu.resukisu.ui.MainActivity
+import com.resukisu.resukisu.ui.screen.main.ShortcutType
 
 class Shortcut(
     private val settings: AppSettingsRepository,

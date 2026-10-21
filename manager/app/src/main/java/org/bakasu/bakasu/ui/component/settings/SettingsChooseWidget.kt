@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.settings
+package com.resukisu.resukisu.ui.component.settings
 
 import android.R
 import androidx.compose.foundation.layout.Arrangement

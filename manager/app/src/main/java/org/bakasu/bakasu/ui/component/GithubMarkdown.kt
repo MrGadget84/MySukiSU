@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -44,17 +44,17 @@ import java.util.Base64
 import kotlin.math.abs
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.network.WebResourceRepository
-import org.bakasu.bakasu.domain.model.DocumentFormat
-import org.bakasu.bakasu.domain.model.DocumentNavigation
-import org.bakasu.bakasu.domain.model.ModuleReadme
-import org.bakasu.bakasu.domain.model.navigation
-import org.bakasu.bakasu.ui.activity.util.adjustLightnessArgb
-import org.bakasu.bakasu.ui.activity.util.cssColorFromArgb
-import org.bakasu.bakasu.ui.activity.util.ensureVisibleByMix
-import org.bakasu.bakasu.ui.activity.util.relativeLuminance
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.isInDarkTheme
+import com.resukisu.resukisu.data.network.WebResourceRepository
+import com.resukisu.resukisu.domain.model.DocumentFormat
+import com.resukisu.resukisu.domain.model.DocumentNavigation
+import com.resukisu.resukisu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.navigation
+import com.resukisu.resukisu.ui.activity.util.adjustLightnessArgb
+import com.resukisu.resukisu.ui.activity.util.cssColorFromArgb
+import com.resukisu.resukisu.ui.activity.util.ensureVisibleByMix
+import com.resukisu.resukisu.ui.activity.util.relativeLuminance
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.isInDarkTheme
 import org.commonmark.ext.gfm.tables.TablesExtension
 import org.commonmark.parser.Parser
 import org.commonmark.renderer.html.AttributeProvider

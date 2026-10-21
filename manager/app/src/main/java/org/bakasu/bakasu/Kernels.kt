@@ -1,4 +1,4 @@
-package org.bakasu.bakasu
+package com.resukisu.resukisu
 
 import android.system.Os
 

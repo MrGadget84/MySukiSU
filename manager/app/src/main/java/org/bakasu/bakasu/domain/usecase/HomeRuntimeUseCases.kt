@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.network.NetworkStatusRepository
-import org.bakasu.bakasu.data.system.HomeRuntimeRepository
+import com.resukisu.resukisu.data.network.NetworkStatusRepository
+import com.resukisu.resukisu.data.system.HomeRuntimeRepository
 
 class GetHomeBasicInfoUseCase(private val repository: HomeRuntimeRepository) {
     suspend operator fun invoke(

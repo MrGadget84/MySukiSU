@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.util
+package com.resukisu.resukisu.ui.util
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.WindowInsetsSides

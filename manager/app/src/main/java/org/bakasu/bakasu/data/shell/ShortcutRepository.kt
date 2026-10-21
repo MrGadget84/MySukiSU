@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.shell
+package com.resukisu.resukisu.data.shell
 
 import com.topjohnwu.superuser.io.SuFile
 import com.topjohnwu.superuser.io.SuFileInputStream

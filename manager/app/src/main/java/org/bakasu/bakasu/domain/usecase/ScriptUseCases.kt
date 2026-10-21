@@ -1,9 +1,9 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
 import android.net.Uri
-import org.bakasu.bakasu.data.script.PreparedScript
-import org.bakasu.bakasu.data.script.ScriptRepository
-import org.bakasu.bakasu.domain.model.ExpectedFile
+import com.resukisu.resukisu.data.script.PreparedScript
+import com.resukisu.resukisu.data.script.ScriptRepository
+import com.resukisu.resukisu.domain.model.ExpectedFile
 
 class PeekOneshotScriptUseCase(private val repository: ScriptRepository) {
     suspend operator fun invoke(uri: String) = repository.peekOneshot(Uri.parse(uri))

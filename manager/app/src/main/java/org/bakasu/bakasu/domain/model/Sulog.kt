@@ -1,11 +1,11 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 import androidx.annotation.StringRes
 import java.time.Instant
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.Locale
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 data class SulogFile(
     val name: String,

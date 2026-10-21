@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 sealed interface StartupState {
     data object Loading : StartupState

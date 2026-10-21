@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Box

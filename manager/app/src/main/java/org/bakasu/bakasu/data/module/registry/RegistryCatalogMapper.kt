@@ -1,12 +1,12 @@
-package org.bakasu.bakasu.data.module.registry
+package com.resukisu.resukisu.data.module.registry
 
-import org.bakasu.bakasu.domain.model.CatalogAuthor
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.ExpectedFile
-import org.bakasu.bakasu.domain.model.ModuleRelease
-import org.bakasu.bakasu.domain.model.ModuleReleaseAsset
-import org.bakasu.bakasu.domain.model.RegistryModuleMetadata
-import org.bakasu.bakasu.domain.model.RepositorySource
+import com.resukisu.resukisu.domain.model.CatalogAuthor
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.ExpectedFile
+import com.resukisu.resukisu.domain.model.ModuleRelease
+import com.resukisu.resukisu.domain.model.ModuleReleaseAsset
+import com.resukisu.resukisu.domain.model.RegistryModuleMetadata
+import com.resukisu.resukisu.domain.model.RepositorySource
 
 object RegistryCatalogMapper {
     fun summary(item: ApiModuleSummary, catalog: RegistryCatalog, source: RepositorySource): CatalogModule {

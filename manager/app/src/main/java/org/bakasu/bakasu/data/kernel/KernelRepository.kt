@@ -1,17 +1,17 @@
-package org.bakasu.bakasu.data.kernel
+package com.resukisu.resukisu.data.kernel
 
 import android.app.Application
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.Natives.KernelPatchImplementation
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.data.system.isSELinuxPermissive
-import org.bakasu.bakasu.domain.model.KernelFeatureSettings
-import org.bakasu.bakasu.domain.model.KernelStatus
-import org.bakasu.bakasu.domain.model.ManagerRecord
-import org.bakasu.bakasu.domain.model.ManagerRuntimeInfo
-import org.bakasu.bakasu.getKernelVersion
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.Natives.KernelPatchImplementation
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.data.system.isSELinuxPermissive
+import com.resukisu.resukisu.domain.model.KernelFeatureSettings
+import com.resukisu.resukisu.domain.model.KernelStatus
+import com.resukisu.resukisu.domain.model.ManagerRecord
+import com.resukisu.resukisu.domain.model.ManagerRuntimeInfo
+import com.resukisu.resukisu.getKernelVersion
 
 class KernelRepository(
     private val application: Application,

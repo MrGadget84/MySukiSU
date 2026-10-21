@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.susfs
+package com.resukisu.resukisu.ui.screen.susfs
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -9,10 +9,10 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.bakasu.bakasu.domain.model.SuSFSConfig
-import org.bakasu.bakasu.ui.viewmodel.SuSFSUiAction
-import org.bakasu.bakasu.ui.viewmodel.SuSFSViewModel
-import org.bakasu.bakasu.ui.viewmodel.awaitSuSFSConfig
+import com.resukisu.resukisu.domain.model.SuSFSConfig
+import com.resukisu.resukisu.ui.viewmodel.SuSFSUiAction
+import com.resukisu.resukisu.ui.viewmodel.SuSFSViewModel
+import com.resukisu.resukisu.ui.viewmodel.awaitSuSFSConfig
 
 internal typealias SuSFSRefreshCallback = suspend (SuSFSConfig, Boolean) -> Unit
 internal typealias SuSFSRefreshRegistrar = (SuSFSRefreshCallback) -> (() -> Unit)

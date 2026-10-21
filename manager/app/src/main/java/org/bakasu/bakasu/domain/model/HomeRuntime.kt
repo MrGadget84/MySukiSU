@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
-import org.bakasu.bakasu.KernelVersion
+import com.resukisu.resukisu.KernelVersion
 
 data class HomeBasicInfo(
     val kernelRelease: String = "",

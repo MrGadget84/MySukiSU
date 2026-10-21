@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.AppSettingsRepository
 
 class GetBooleanPreferenceUseCase(private val repository: AppSettingsRepository) {
     operator fun invoke(key: String, defaultValue: Boolean = false) = repository.getBoolean(key, defaultValue)

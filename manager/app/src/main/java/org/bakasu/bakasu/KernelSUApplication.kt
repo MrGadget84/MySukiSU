@@ -1,11 +1,11 @@
-package org.bakasu.bakasu
+package com.resukisu.resukisu
 
 import android.app.Application
 import android.os.Build
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
-import org.bakasu.bakasu.di.appModules
-import org.bakasu.bakasu.domain.usecase.InitializeApplicationUseCase
+import com.resukisu.resukisu.di.appModules
+import com.resukisu.resukisu.domain.usecase.InitializeApplicationUseCase
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

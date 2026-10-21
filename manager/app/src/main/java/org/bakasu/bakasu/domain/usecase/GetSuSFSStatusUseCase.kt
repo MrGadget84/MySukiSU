@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.susfs.SuSFSRepository
+import com.resukisu.resukisu.data.susfs.SuSFSRepository
 
 class GetSuSFSStatusUseCase(private val repository: SuSFSRepository) {
     suspend operator fun invoke() = repository.getStatus()

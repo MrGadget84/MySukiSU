@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // Copyright (C) 2026 BakaSU contributors
-package org.bakasu.bakasu.ui.animation.predictiveback
+package com.resukisu.resukisu.ui.animation.predictiveback
 
 import kotlin.math.roundToInt
 

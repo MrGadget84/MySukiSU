@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.util.downloader
+package com.resukisu.resukisu.ui.util.downloader
 
 import android.Manifest
 import android.content.Context
@@ -10,15 +10,15 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.DownloadState
-import org.bakasu.bakasu.domain.model.DownloadStatus
-import org.bakasu.bakasu.domain.model.ExpectedFile
-import org.bakasu.bakasu.domain.model.ManagerUpdateInfo
-import org.bakasu.bakasu.domain.usecase.EnqueueDownloadUseCase
-import org.bakasu.bakasu.domain.usecase.EnqueueManagerUpdateUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveDownloadUseCase
-import org.bakasu.bakasu.ui.activity.PermissionRequestInterface
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.DownloadState
+import com.resukisu.resukisu.domain.model.DownloadStatus
+import com.resukisu.resukisu.domain.model.ExpectedFile
+import com.resukisu.resukisu.domain.model.ManagerUpdateInfo
+import com.resukisu.resukisu.domain.usecase.EnqueueDownloadUseCase
+import com.resukisu.resukisu.domain.usecase.EnqueueManagerUpdateUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveDownloadUseCase
+import com.resukisu.resukisu.ui.activity.PermissionRequestInterface
 
 /**
  * @author weishu

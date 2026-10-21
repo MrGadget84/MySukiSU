@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.Natives.Profile.Namespace
-import org.bakasu.bakasu.Natives.Profile.RootProfileFlag
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.Natives.Profile.Namespace
+import com.resukisu.resukisu.Natives.Profile.RootProfileFlag
 
 data class ProfileTemplate(
     val id: String = "",

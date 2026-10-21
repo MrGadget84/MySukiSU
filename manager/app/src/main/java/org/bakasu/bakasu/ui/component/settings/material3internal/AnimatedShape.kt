@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bakasu.bakasu.ui.component.settings.material3internal
+package com.resukisu.resukisu.ui.component.settings.material3internal
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationVector1D

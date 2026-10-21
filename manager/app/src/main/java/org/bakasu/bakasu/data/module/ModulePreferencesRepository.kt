@@ -1,11 +1,11 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.domain.model.ModulePreferences
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.domain.model.ModulePreferences
 
 class ModulePreferencesRepository(
     private val settings: AppSettingsRepository,

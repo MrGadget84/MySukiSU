@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.theme
+package com.resukisu.resukisu.data.theme
 
 import android.app.Application
 import android.os.Build

@@ -1,9 +1,9 @@
-package org.bakasu.bakasu.data.webui
+package com.resukisu.resukisu.data.webui
 
 import java.io.File
 import java.io.InputStream
 import java.util.Properties
-import org.bakasu.bakasu.domain.model.WebUiModuleInfo
+import com.resukisu.resukisu.domain.model.WebUiModuleInfo
 
 internal fun readWebUiModuleInfo(
     moduleId: String,

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.shell
+package com.resukisu.resukisu.data.shell
 
 import android.content.Context
 import android.net.Uri
@@ -17,13 +17,13 @@ import java.util.Properties
 import java.util.concurrent.Executor
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.BuildConfig
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.module.registry.DownloadVerificationException
-import org.bakasu.bakasu.data.module.registry.RegistryDownloadStore
-import org.bakasu.bakasu.data.module.registry.copyForInstall
-import org.bakasu.bakasu.domain.model.LkmSelection
+import com.resukisu.resukisu.BuildConfig
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.module.registry.DownloadVerificationException
+import com.resukisu.resukisu.data.module.registry.RegistryDownloadStore
+import com.resukisu.resukisu.data.module.registry.copyForInstall
+import com.resukisu.resukisu.domain.model.LkmSelection
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -170,7 +170,7 @@ class KsuCliRepository(context: Context) {
             .add("${getKsuDaemonPath()} debug get-sign ${shellQuote(packageResourcePath)}")
             .to(ArrayList<String>(), null).exec().out
         out.firstOrNull()?.trim()
-            .orEmpty() == "size: 0x377, hash: d3469712b6214462764a1d8d3e5cbe1d6819a0b629791b9f4101867821f1df64"
+            .orEmpty() == "size: 0x320, hash: ab14a2a01357ced06f323392576f980ff525697984b92ec80615448049636fbf"
     }
 
     suspend fun getFeatureStatus(feature: String): String = withContext(Dispatchers.IO) {

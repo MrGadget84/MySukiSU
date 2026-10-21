@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.count
+package com.resukisu.resukisu.data.count
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
 
 data class CountState(
     val superuserCount: Int = 0,

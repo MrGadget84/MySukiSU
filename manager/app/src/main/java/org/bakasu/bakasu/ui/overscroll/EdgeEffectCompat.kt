@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bakasu.bakasu.ui.overscroll
+package com.resukisu.resukisu.ui.overscroll
 
 import android.content.Context
 import android.os.Build
@@ -28,7 +28,7 @@ import kotlin.math.abs
 import kotlin.math.exp
 import kotlin.math.ln
 import kotlin.math.roundToInt
-import org.bakasu.bakasu.ui.overscroll.EdgeEffectCompat.distanceCompat
+import com.resukisu.resukisu.ui.overscroll.EdgeEffectCompat.distanceCompat
 
 internal object EdgeEffectCompat {
 

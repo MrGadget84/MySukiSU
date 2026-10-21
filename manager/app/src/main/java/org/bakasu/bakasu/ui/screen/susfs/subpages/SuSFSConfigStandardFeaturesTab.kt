@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.susfs.subpages
+package com.resukisu.resukisu.ui.screen.susfs.subpages
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
@@ -51,22 +51,22 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.SuSFSSlotInfo
-import org.bakasu.bakasu.ui.component.settings.SegmentedColumn
-import org.bakasu.bakasu.ui.component.settings.SettingsBaseWidget
-import org.bakasu.bakasu.ui.component.settings.SettingsJumpPageWidget
-import org.bakasu.bakasu.ui.component.settings.SettingsSwitchWidget
-import org.bakasu.bakasu.ui.component.settings.SettingsTextFieldWidget
-import org.bakasu.bakasu.ui.component.settings.lazySegmentColumn
-import org.bakasu.bakasu.ui.screen.susfs.RegisterSuSFSRefresh
-import org.bakasu.bakasu.ui.screen.susfs.SuSFSRefreshRegistrar
-import org.bakasu.bakasu.ui.util.LocalSnackbarHost
-import org.bakasu.bakasu.ui.util.showReplacingSnackbar
-import org.bakasu.bakasu.ui.viewmodel.SuSFSUiAction
-import org.bakasu.bakasu.ui.viewmodel.SuSFSViewModel
-import org.bakasu.bakasu.ui.viewmodel.awaitSuSFSBoolean
-import org.bakasu.bakasu.ui.viewmodel.awaitSuSFSSlotInfo
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.SuSFSSlotInfo
+import com.resukisu.resukisu.ui.component.settings.SegmentedColumn
+import com.resukisu.resukisu.ui.component.settings.SettingsBaseWidget
+import com.resukisu.resukisu.ui.component.settings.SettingsJumpPageWidget
+import com.resukisu.resukisu.ui.component.settings.SettingsSwitchWidget
+import com.resukisu.resukisu.ui.component.settings.SettingsTextFieldWidget
+import com.resukisu.resukisu.ui.component.settings.lazySegmentColumn
+import com.resukisu.resukisu.ui.screen.susfs.RegisterSuSFSRefresh
+import com.resukisu.resukisu.ui.screen.susfs.SuSFSRefreshRegistrar
+import com.resukisu.resukisu.ui.util.LocalSnackbarHost
+import com.resukisu.resukisu.ui.util.showReplacingSnackbar
+import com.resukisu.resukisu.ui.viewmodel.SuSFSUiAction
+import com.resukisu.resukisu.ui.viewmodel.SuSFSViewModel
+import com.resukisu.resukisu.ui.viewmodel.awaitSuSFSBoolean
+import com.resukisu.resukisu.ui.viewmodel.awaitSuSFSSlotInfo
 import org.koin.compose.viewmodel.koinViewModel
 
 private enum class UnameDialogTab {

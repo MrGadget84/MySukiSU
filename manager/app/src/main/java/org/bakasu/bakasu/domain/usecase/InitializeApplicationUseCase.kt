@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.data.startup.ApplicationInitializationRepository
-import org.bakasu.bakasu.data.startup.StartupRepository
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.startup.ApplicationInitializationRepository
+import com.resukisu.resukisu.data.startup.StartupRepository
 
 class InitializeApplicationUseCase(
     private val settingsRepository: AppSettingsRepository,

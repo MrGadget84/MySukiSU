@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.settings
+package com.resukisu.resukisu.ui.component.settings
 
 import androidx.compose.animation.core.FiniteAnimationSpec
 import androidx.compose.foundation.combinedClickable
@@ -65,11 +65,11 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.ui.component.settings.material3internal.rememberAnimatedShape
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.renderBackgroundBlur
-import org.bakasu.bakasu.ui.util.LocalBackgroundBlurProvided
+import com.resukisu.resukisu.ui.component.settings.material3internal.rememberAnimatedShape
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.renderBackgroundBlur
+import com.resukisu.resukisu.ui.util.LocalBackgroundBlurProvided
 import org.koin.compose.koinInject
 
 /**

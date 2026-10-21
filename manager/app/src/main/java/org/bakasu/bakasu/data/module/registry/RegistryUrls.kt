@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module.registry
+package com.resukisu.resukisu.data.module.registry
 
 import java.net.URI
 import java.net.URLDecoder

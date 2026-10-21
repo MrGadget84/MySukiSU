@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.script
+package com.resukisu.resukisu.data.script
 
 import android.content.ContentResolver
 import android.content.Context
@@ -25,13 +25,13 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.BuildConfig
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.data.module.registry.DownloadVerificationException
-import org.bakasu.bakasu.data.module.registry.RegistryDownloadStore
-import org.bakasu.bakasu.data.module.registry.copyForInstall
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.ExpectedFile
+import com.resukisu.resukisu.BuildConfig
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.data.module.registry.DownloadVerificationException
+import com.resukisu.resukisu.data.module.registry.RegistryDownloadStore
+import com.resukisu.resukisu.data.module.registry.copyForInstall
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.ExpectedFile
 
 /** A validated script, extracted and ready to run. */
 data class PreparedScript(

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -11,12 +11,12 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.UmountPath
-import org.bakasu.bakasu.domain.usecase.AddUmountPathUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveUmountStateUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshUmountPathsUseCase
-import org.bakasu.bakasu.domain.usecase.RemoveUmountPathUseCase
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.UmountPath
+import com.resukisu.resukisu.domain.usecase.AddUmountPathUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveUmountStateUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshUmountPathsUseCase
+import com.resukisu.resukisu.domain.usecase.RemoveUmountPathUseCase
 
 data class UmountManagerUiState(
     val umountPaths: List<UmountPath> = emptyList(),

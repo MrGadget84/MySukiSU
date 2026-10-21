@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.kernelFlash
+package com.resukisu.resukisu.ui.screen.kernelFlash
 
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
@@ -17,16 +17,16 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlin.time.Duration.Companion.milliseconds
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.component.FlashOutputScreen
-import org.bakasu.bakasu.ui.navigation.LocalNavigator
-import org.bakasu.bakasu.ui.util.LocalSnackbarHost
-import org.bakasu.bakasu.ui.util.showReplacingSnackbar
-import org.bakasu.bakasu.ui.viewmodel.FlashState
-import org.bakasu.bakasu.ui.viewmodel.FlashingStatus
-import org.bakasu.bakasu.ui.viewmodel.KernelFlashUiAction
-import org.bakasu.bakasu.ui.viewmodel.KernelFlashUiEvent
-import org.bakasu.bakasu.ui.viewmodel.KernelFlashViewModel
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.component.FlashOutputScreen
+import com.resukisu.resukisu.ui.navigation.LocalNavigator
+import com.resukisu.resukisu.ui.util.LocalSnackbarHost
+import com.resukisu.resukisu.ui.util.showReplacingSnackbar
+import com.resukisu.resukisu.ui.viewmodel.FlashState
+import com.resukisu.resukisu.ui.viewmodel.FlashingStatus
+import com.resukisu.resukisu.ui.viewmodel.KernelFlashUiAction
+import com.resukisu.resukisu.ui.viewmodel.KernelFlashUiEvent
+import com.resukisu.resukisu.ui.viewmodel.KernelFlashViewModel
 import org.koin.compose.viewmodel.koinViewModel
 
 /**

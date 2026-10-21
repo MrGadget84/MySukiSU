@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.module.ModuleRepository
-import org.bakasu.bakasu.data.network.NetworkRequestRepository
+import com.resukisu.resukisu.data.module.ModuleRepository
+import com.resukisu.resukisu.data.network.NetworkRequestRepository
 
 class FetchRemoteTextUseCase(private val repository: NetworkRequestRepository) {
     suspend operator fun invoke(url: String) = repository.fetch(url)

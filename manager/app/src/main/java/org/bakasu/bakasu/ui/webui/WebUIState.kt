@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.webui
+package com.resukisu.resukisu.ui.webui
 
 import android.content.Intent
 import android.net.Uri

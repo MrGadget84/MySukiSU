@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.profile.ProfileRepository
-import org.bakasu.bakasu.domain.model.AppProfile
+import com.resukisu.resukisu.data.profile.ProfileRepository
+import com.resukisu.resukisu.domain.model.AppProfile
 
 class GetAppProfileUseCase(private val repository: ProfileRepository) {
     suspend operator fun invoke(packageName: String, uid: Int) = repository.getProfile(packageName, uid)

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.lint
+package com.resukisu.resukisu.lint
 
 import com.android.tools.lint.client.api.UElementHandler
 import com.android.tools.lint.detector.api.Category

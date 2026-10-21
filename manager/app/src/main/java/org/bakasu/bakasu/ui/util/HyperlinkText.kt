@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.util
+package com.resukisu.resukisu.ui.util
 
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.material3.MaterialTheme

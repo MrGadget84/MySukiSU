@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.theme
+package com.resukisu.resukisu.ui.theme
 
 enum class BottomBarStyle {
     MATERIAL3_EXPRESSIVE,

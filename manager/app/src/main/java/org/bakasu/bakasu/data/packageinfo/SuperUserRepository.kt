@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.packageinfo
+package com.resukisu.resukisu.data.packageinfo
 
 import android.app.Application
 import android.content.pm.ApplicationInfo
@@ -21,16 +21,16 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.profile.AppProfileKey
-import org.bakasu.bakasu.data.profile.ProfileRepository
-import org.bakasu.bakasu.domain.model.AllowlistOperationResult
-import org.bakasu.bakasu.domain.model.AllowlistRestoreResult
-import org.bakasu.bakasu.domain.model.InstalledApp
-import org.bakasu.bakasu.domain.model.InstalledAppGroup
-import org.bakasu.bakasu.domain.model.SuperUserLoadFailure
-import org.bakasu.bakasu.domain.model.SuperUserState
-import org.bakasu.bakasu.domain.model.WEBVIEW_ZYGOTE_PROFILE_KEY
-import org.bakasu.bakasu.domain.model.WEBVIEW_ZYGOTE_UID
+import com.resukisu.resukisu.data.profile.AppProfileKey
+import com.resukisu.resukisu.data.profile.ProfileRepository
+import com.resukisu.resukisu.domain.model.AllowlistOperationResult
+import com.resukisu.resukisu.domain.model.AllowlistRestoreResult
+import com.resukisu.resukisu.domain.model.InstalledApp
+import com.resukisu.resukisu.domain.model.InstalledAppGroup
+import com.resukisu.resukisu.domain.model.SuperUserLoadFailure
+import com.resukisu.resukisu.domain.model.SuperUserState
+import com.resukisu.resukisu.domain.model.WEBVIEW_ZYGOTE_PROFILE_KEY
+import com.resukisu.resukisu.domain.model.WEBVIEW_ZYGOTE_UID
 
 class SuperUserRepository(
     private val application: Application,

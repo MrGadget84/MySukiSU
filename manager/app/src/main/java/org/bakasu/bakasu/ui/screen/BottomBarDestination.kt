@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen
+package com.resukisu.resukisu.ui.screen
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
@@ -9,11 +9,11 @@ import androidx.compose.material.icons.twotone.Settings
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.Dp
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.screen.main.HomePage
-import org.bakasu.bakasu.ui.screen.main.ModulePage
-import org.bakasu.bakasu.ui.screen.main.SettingsPage
-import org.bakasu.bakasu.ui.screen.main.SuperUserPage
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.screen.main.HomePage
+import com.resukisu.resukisu.ui.screen.main.ModulePage
+import com.resukisu.resukisu.ui.screen.main.SettingsPage
+import com.resukisu.resukisu.ui.screen.main.SuperUserPage
 
 enum class BottomBarDestination(
     val direction: @Composable (bottomPadding: Dp) -> Unit,

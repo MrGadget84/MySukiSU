@@ -1,6 +1,6 @@
 // Adapted from compose-miuix-ui example (IosLiquidGlassNavigationBar) — Apache 2.0.
 
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.EaseOut
@@ -73,16 +73,16 @@ import kotlin.math.roundToInt
 import kotlin.math.sign
 import kotlin.math.sin
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.ui.component.liquid.InnerShadow
-import org.bakasu.bakasu.ui.component.liquid.innerShadow
-import org.bakasu.bakasu.ui.component.liquid.lens
-import org.bakasu.bakasu.ui.component.liquid.rememberCombinedBackdrop
-import org.bakasu.bakasu.ui.component.liquid.vibrancy
-import org.bakasu.bakasu.ui.component.miuix.animation.DampedDragAnimation
-import org.bakasu.bakasu.ui.component.miuix.animation.InteractiveHighlight
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.isInDarkTheme
-import org.bakasu.bakasu.ui.util.LocalBlurState
+import com.resukisu.resukisu.ui.component.liquid.InnerShadow
+import com.resukisu.resukisu.ui.component.liquid.innerShadow
+import com.resukisu.resukisu.ui.component.liquid.lens
+import com.resukisu.resukisu.ui.component.liquid.rememberCombinedBackdrop
+import com.resukisu.resukisu.ui.component.liquid.vibrancy
+import com.resukisu.resukisu.ui.component.miuix.animation.DampedDragAnimation
+import com.resukisu.resukisu.ui.component.miuix.animation.InteractiveHighlight
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.isInDarkTheme
+import com.resukisu.resukisu.ui.util.LocalBlurState
 import org.koin.compose.koinInject
 import top.yukonga.miuix.kmp.blur.Backdrop
 import top.yukonga.miuix.kmp.blur.blur

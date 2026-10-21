@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.system
+package com.resukisu.resukisu.data.system
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -6,8 +6,8 @@ import android.os.Build
 import android.system.Os
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.BuildConfig
-import org.bakasu.bakasu.domain.model.HomeBasicInfo
+import com.resukisu.resukisu.BuildConfig
+import com.resukisu.resukisu.domain.model.HomeBasicInfo
 
 class HomeRuntimeRepository(
     private val application: Application,

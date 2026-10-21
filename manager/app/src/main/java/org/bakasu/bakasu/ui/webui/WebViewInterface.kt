@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.webui
+package com.resukisu.resukisu.ui.webui
 
 import android.app.Activity
 import android.os.Handler
@@ -10,8 +10,8 @@ import android.widget.Toast
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import java.io.File
-import org.bakasu.bakasu.data.packageinfo.InstalledPackageRepository
-import org.bakasu.bakasu.data.webui.WebUiRepository
+import com.resukisu.resukisu.data.packageinfo.InstalledPackageRepository
+import com.resukisu.resukisu.data.webui.WebUiRepository
 import org.json.JSONArray
 import org.json.JSONObject
 

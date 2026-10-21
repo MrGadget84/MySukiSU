@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import com.topjohnwu.superuser.io.SuFile
 import kotlinx.coroutines.Dispatchers
@@ -12,13 +12,13 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.network.NetworkRequestRepository
-import org.bakasu.bakasu.data.network.NetworkStatusRepository
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.InstalledModule
-import org.bakasu.bakasu.domain.model.InstalledModulesState
-import org.bakasu.bakasu.domain.model.MetaModuleStatus
-import org.bakasu.bakasu.domain.model.ModuleUpdateMetadata
+import com.resukisu.resukisu.data.network.NetworkRequestRepository
+import com.resukisu.resukisu.data.network.NetworkStatusRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.InstalledModule
+import com.resukisu.resukisu.domain.model.InstalledModulesState
+import com.resukisu.resukisu.domain.model.MetaModuleStatus
+import com.resukisu.resukisu.domain.model.ModuleUpdateMetadata
 import org.json.JSONArray
 import org.json.JSONObject
 

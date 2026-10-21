@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.miuix.modifier
+package com.resukisu.resukisu.ui.component.miuix.modifier
 
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown

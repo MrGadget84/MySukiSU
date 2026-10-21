@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.usecase.GetInstallEnvironmentUseCase
+import com.resukisu.resukisu.domain.usecase.GetInstallEnvironmentUseCase
 
 data class MainIntentUiState(
     val rootAvailable: Boolean = false,

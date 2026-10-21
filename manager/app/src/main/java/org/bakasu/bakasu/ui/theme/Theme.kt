@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.theme
+package com.resukisu.resukisu.ui.theme
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -101,16 +101,16 @@ import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.data.theme.MonetCompatColorSource
-import org.bakasu.bakasu.data.theme.ThemeRepository
-import org.bakasu.bakasu.ui.overscroll.StretchOverscrollCompensationState
-import org.bakasu.bakasu.ui.util.LocalBackgroundBlurAnchor
-import org.bakasu.bakasu.ui.util.LocalBackgroundBlurProvided
-import org.bakasu.bakasu.ui.util.LocalBlurState
-import org.bakasu.bakasu.ui.util.LocalPagerPage
-import org.bakasu.bakasu.ui.util.LocalPagerState
-import org.bakasu.bakasu.ui.util.LocalStretchOverscrollCompensationState
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.theme.MonetCompatColorSource
+import com.resukisu.resukisu.data.theme.ThemeRepository
+import com.resukisu.resukisu.ui.overscroll.StretchOverscrollCompensationState
+import com.resukisu.resukisu.ui.util.LocalBackgroundBlurAnchor
+import com.resukisu.resukisu.ui.util.LocalBackgroundBlurProvided
+import com.resukisu.resukisu.ui.util.LocalBlurState
+import com.resukisu.resukisu.ui.util.LocalPagerPage
+import com.resukisu.resukisu.ui.util.LocalPagerState
+import com.resukisu.resukisu.ui.util.LocalStretchOverscrollCompensationState
 import org.koin.compose.koinInject
 import top.yukonga.miuix.kmp.blur.BackdropEffectScope
 import top.yukonga.miuix.kmp.blur.BlendColorEntry
@@ -173,7 +173,7 @@ class ThemeConfig(
 }
 
 private val BuiltinspaceFontFamily = FontFamily(
-    Font(org.bakasu.bakasu.R.font.jetbrains_mono),
+    Font(com.resukisu.resukisu.R.font.jetbrains_mono),
 )
 
 @Composable

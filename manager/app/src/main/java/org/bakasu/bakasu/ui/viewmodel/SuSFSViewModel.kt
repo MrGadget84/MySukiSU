@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -10,12 +10,12 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.SuSFSConfig
-import org.bakasu.bakasu.domain.model.SuSFSSlotInfo
-import org.bakasu.bakasu.domain.model.SuSFSStatusInfo
-import org.bakasu.bakasu.domain.model.SusKstatStatically
-import org.bakasu.bakasu.domain.model.UidScheme
-import org.bakasu.bakasu.domain.usecase.SuSFSConfigUseCase
+import com.resukisu.resukisu.domain.model.SuSFSConfig
+import com.resukisu.resukisu.domain.model.SuSFSSlotInfo
+import com.resukisu.resukisu.domain.model.SuSFSStatusInfo
+import com.resukisu.resukisu.domain.model.SusKstatStatically
+import com.resukisu.resukisu.domain.model.UidScheme
+import com.resukisu.resukisu.domain.usecase.SuSFSConfigUseCase
 
 data class SuSFSUiState(
     val config: SuSFSConfig? = null,

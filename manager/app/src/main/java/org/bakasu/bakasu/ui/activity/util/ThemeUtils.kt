@@ -1,11 +1,11 @@
-package org.bakasu.bakasu.ui.activity.util
+package com.resukisu.resukisu.ui.activity.util
 
-import org.bakasu.bakasu.data.theme.ThemeRepository
-import org.bakasu.bakasu.ui.theme.BackgroundManager
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.viewmodel.SettingsUiAction
-import org.bakasu.bakasu.ui.viewmodel.SettingsViewModel
+import com.resukisu.resukisu.data.theme.ThemeRepository
+import com.resukisu.resukisu.ui.theme.BackgroundManager
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.viewmodel.SettingsUiAction
+import com.resukisu.resukisu.ui.viewmodel.SettingsViewModel
 
 class ThemeUtils(
     private val themeConfig: ThemeConfig,

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.activity.util
+package com.resukisu.resukisu.ui.activity.util
 
 import android.content.Context
 import android.net.ConnectivityManager

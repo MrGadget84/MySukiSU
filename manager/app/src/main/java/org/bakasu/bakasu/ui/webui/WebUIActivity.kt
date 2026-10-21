@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.webui
+package com.resukisu.resukisu.ui.webui
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -21,12 +21,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.data.packageinfo.AppIconDataSource
-import org.bakasu.bakasu.data.packageinfo.InstalledPackageRepository
-import org.bakasu.bakasu.data.webui.WebUiRepository
-import org.bakasu.bakasu.ui.theme.KernelSUTheme
-import org.bakasu.bakasu.ui.viewmodel.SuperUserViewModel
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.packageinfo.AppIconDataSource
+import com.resukisu.resukisu.data.packageinfo.InstalledPackageRepository
+import com.resukisu.resukisu.data.webui.WebUiRepository
+import com.resukisu.resukisu.ui.theme.KernelSUTheme
+import com.resukisu.resukisu.ui.viewmodel.SuperUserViewModel
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 

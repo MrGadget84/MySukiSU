@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.webui
+package com.resukisu.resukisu.ui.webui
 
 import android.content.Context
 import android.util.Log
@@ -11,8 +11,8 @@ import java.io.IOException
 import java.io.InputStream
 import java.nio.charset.StandardCharsets
 import java.util.zip.GZIPInputStream
-import org.bakasu.bakasu.data.webui.WebUiRepository
-import org.bakasu.bakasu.ui.webui.SuFilePathHandler.Companion.DEFAULT_MIME_TYPE
+import com.resukisu.resukisu.data.webui.WebUiRepository
+import com.resukisu.resukisu.ui.webui.SuFilePathHandler.Companion.DEFAULT_MIME_TYPE
 
 /**
  * Handler class to open files from file system by root access

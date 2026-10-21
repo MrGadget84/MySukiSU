@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.about
+package com.resukisu.resukisu.ui.screen.about
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -53,18 +53,18 @@ import com.mikepenz.aboutlibraries.ui.compose.util.author
 import com.mikepenz.aboutlibraries.util.withJson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.component.WarningCard
-import org.bakasu.bakasu.ui.component.settings.AppBackButton
-import org.bakasu.bakasu.ui.component.settings.SettingsBaseWidget
-import org.bakasu.bakasu.ui.component.settings.lazySegmentColumn
-import org.bakasu.bakasu.ui.navigation.LocalNavigator
-import org.bakasu.bakasu.ui.screen.LabelText
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.blurEffect
-import org.bakasu.bakasu.ui.theme.blurSource
-import org.bakasu.bakasu.ui.util.adaptiveScaffoldWindowInsets
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.component.WarningCard
+import com.resukisu.resukisu.ui.component.settings.AppBackButton
+import com.resukisu.resukisu.ui.component.settings.SettingsBaseWidget
+import com.resukisu.resukisu.ui.component.settings.lazySegmentColumn
+import com.resukisu.resukisu.ui.navigation.LocalNavigator
+import com.resukisu.resukisu.ui.screen.LabelText
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.blurEffect
+import com.resukisu.resukisu.ui.theme.blurSource
+import com.resukisu.resukisu.ui.util.adaptiveScaffoldWindowInsets
 import org.koin.compose.koinInject
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

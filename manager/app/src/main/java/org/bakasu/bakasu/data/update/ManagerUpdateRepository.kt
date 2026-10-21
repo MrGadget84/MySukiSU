@@ -1,14 +1,14 @@
-package org.bakasu.bakasu.data.update
+package com.resukisu.resukisu.data.update
 
 import android.os.Build
 import android.util.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.BuildConfig
-import org.bakasu.bakasu.data.network.NetworkRequestRepository
-import org.bakasu.bakasu.domain.model.ManagerApkSource
-import org.bakasu.bakasu.domain.model.ManagerUpdateChannel
-import org.bakasu.bakasu.domain.model.ManagerUpdateInfo
+import com.resukisu.resukisu.BuildConfig
+import com.resukisu.resukisu.data.network.NetworkRequestRepository
+import com.resukisu.resukisu.domain.model.ManagerApkSource
+import com.resukisu.resukisu.domain.model.ManagerUpdateChannel
+import com.resukisu.resukisu.domain.model.ManagerUpdateInfo
 import org.json.JSONObject
 
 class ManagerUpdateRepository(

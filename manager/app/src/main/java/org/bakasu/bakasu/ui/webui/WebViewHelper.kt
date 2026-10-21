@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.webui
+package com.resukisu.resukisu.ui.webui
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -23,13 +23,13 @@ import java.io.File
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.data.packageinfo.AppIconDataSource
-import org.bakasu.bakasu.data.packageinfo.InstalledPackageRepository
-import org.bakasu.bakasu.data.webui.WebUiRepository
-import org.bakasu.bakasu.ui.viewmodel.SuperUserUiAction
-import org.bakasu.bakasu.ui.viewmodel.SuperUserViewModel
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.packageinfo.AppIconDataSource
+import com.resukisu.resukisu.data.packageinfo.InstalledPackageRepository
+import com.resukisu.resukisu.data.webui.WebUiRepository
+import com.resukisu.resukisu.ui.viewmodel.SuperUserUiAction
+import com.resukisu.resukisu.ui.viewmodel.SuperUserViewModel
 
 @SuppressLint("SetJavaScriptEnabled")
 internal suspend fun prepareWebView(

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import android.content.Context
 import androidx.datastore.preferences.core.stringPreferencesKey
@@ -7,12 +7,12 @@ import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
 import kotlinx.coroutines.CancellationException
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.domain.model.RepositoryApiType
-import org.bakasu.bakasu.domain.model.RepositoryError
-import org.bakasu.bakasu.domain.model.RepositoryException
-import org.bakasu.bakasu.domain.model.RepositorySource
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.domain.model.RepositoryApiType
+import com.resukisu.resukisu.domain.model.RepositoryError
+import com.resukisu.resukisu.domain.model.RepositoryException
+import com.resukisu.resukisu.domain.model.RepositorySource
 
 class RepositorySourceStore(
     private val settings: AppSettingsRepository,

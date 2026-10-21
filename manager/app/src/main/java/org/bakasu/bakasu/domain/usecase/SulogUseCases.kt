@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.logging.SulogRepository
+import com.resukisu.resukisu.data.logging.SulogRepository
 
 class ObserveSulogStateUseCase(private val repository: SulogRepository) {
     operator fun invoke() = repository.state

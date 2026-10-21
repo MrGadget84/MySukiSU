@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -21,12 +21,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.ModuleReleaseAsset
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.renderBackgroundBlur
-import org.bakasu.bakasu.ui.viewmodel.formatFileSize
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.ModuleReleaseAsset
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.renderBackgroundBlur
+import com.resukisu.resukisu.ui.viewmodel.formatFileSize
 import org.koin.compose.koinInject
 
 @Composable

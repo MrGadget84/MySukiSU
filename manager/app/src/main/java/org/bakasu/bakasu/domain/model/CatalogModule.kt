@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 import androidx.annotation.StringRes
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 data class CatalogAuthor(
     val name: String,

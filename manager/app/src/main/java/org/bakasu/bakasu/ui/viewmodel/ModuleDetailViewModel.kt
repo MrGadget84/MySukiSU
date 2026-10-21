@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -11,21 +11,21 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.ModuleCatalogFailure
-import org.bakasu.bakasu.domain.model.ModuleCatalogResult
-import org.bakasu.bakasu.domain.model.ModuleReadme
-import org.bakasu.bakasu.domain.model.ModuleRelease
-import org.bakasu.bakasu.domain.model.ModuleReleaseAsset
-import org.bakasu.bakasu.domain.model.ModuleReleaseDetails
-import org.bakasu.bakasu.domain.model.RepositoryFailure
-import org.bakasu.bakasu.domain.usecase.GetCatalogModuleUseCase
-import org.bakasu.bakasu.domain.usecase.GetModuleReadmeUseCase
-import org.bakasu.bakasu.domain.usecase.GetModuleReleaseDetailsUseCase
-import org.bakasu.bakasu.domain.usecase.IsCatalogModuleCurrentUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveCatalogModulesUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveRepositorySourcesUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshModuleCatalogUseCase
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.ModuleCatalogFailure
+import com.resukisu.resukisu.domain.model.ModuleCatalogResult
+import com.resukisu.resukisu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.ModuleRelease
+import com.resukisu.resukisu.domain.model.ModuleReleaseAsset
+import com.resukisu.resukisu.domain.model.ModuleReleaseDetails
+import com.resukisu.resukisu.domain.model.RepositoryFailure
+import com.resukisu.resukisu.domain.usecase.GetCatalogModuleUseCase
+import com.resukisu.resukisu.domain.usecase.GetModuleReadmeUseCase
+import com.resukisu.resukisu.domain.usecase.GetModuleReleaseDetailsUseCase
+import com.resukisu.resukisu.domain.usecase.IsCatalogModuleCurrentUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveCatalogModulesUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveRepositorySourcesUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshModuleCatalogUseCase
 
 data class ModuleDetailUiState(
     val module: CatalogModule? = null,

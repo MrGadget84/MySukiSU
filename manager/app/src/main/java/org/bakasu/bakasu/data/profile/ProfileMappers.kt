@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.data.profile
+package com.resukisu.resukisu.data.profile
 
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.domain.model.AppProfile
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.domain.model.AppProfile
 
 internal fun Natives.Profile.toDomain(): AppProfile = AppProfile(
     name = name,

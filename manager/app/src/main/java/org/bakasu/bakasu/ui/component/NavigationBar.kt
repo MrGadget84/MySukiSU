@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.activity.component
+package com.resukisu.resukisu.ui.activity.component
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -41,18 +41,18 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import org.bakasu.bakasu.ui.component.FloatingBottomBar
-import org.bakasu.bakasu.ui.component.FloatingBottomBarItem
-import org.bakasu.bakasu.ui.screen.BottomBarDestination
-import org.bakasu.bakasu.ui.theme.BottomBarStyle
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.blurEffect
-import org.bakasu.bakasu.ui.util.LocalBlurState
-import org.bakasu.bakasu.ui.util.LocalHandlePageChange
-import org.bakasu.bakasu.ui.util.LocalPagerState
-import org.bakasu.bakasu.ui.util.LocalSelectedPage
-import org.bakasu.bakasu.ui.viewmodel.HomeViewModel
+import com.resukisu.resukisu.ui.component.FloatingBottomBar
+import com.resukisu.resukisu.ui.component.FloatingBottomBarItem
+import com.resukisu.resukisu.ui.screen.BottomBarDestination
+import com.resukisu.resukisu.ui.theme.BottomBarStyle
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.blurEffect
+import com.resukisu.resukisu.ui.util.LocalBlurState
+import com.resukisu.resukisu.ui.util.LocalHandlePageChange
+import com.resukisu.resukisu.ui.util.LocalPagerState
+import com.resukisu.resukisu.ui.util.LocalSelectedPage
+import com.resukisu.resukisu.ui.viewmodel.HomeViewModel
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.baselineprofile
+package com.resukisu.resukisu.baselineprofile
 
 import androidx.benchmark.macro.junit4.BaselineProfileRule
 import org.junit.Rule

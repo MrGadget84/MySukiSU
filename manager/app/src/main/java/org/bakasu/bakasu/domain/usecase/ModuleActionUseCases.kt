@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.module.ModuleActionRepository
+import com.resukisu.resukisu.data.module.ModuleActionRepository
 
 class ExecuteModuleActionUseCase(
     private val repository: ModuleActionRepository,

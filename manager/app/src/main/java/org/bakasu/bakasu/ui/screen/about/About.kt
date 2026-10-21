@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.about
+package com.resukisu.resukisu.ui.screen.about
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -50,21 +50,21 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import com.google.accompanist.drawablepainter.rememberDrawablePainter
-import org.bakasu.bakasu.BuildConfig
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.component.WarningCard
-import org.bakasu.bakasu.ui.component.settings.AppBackButton
-import org.bakasu.bakasu.ui.component.settings.SegmentedColumn
-import org.bakasu.bakasu.ui.component.settings.SettingsJumpPageWidget
-import org.bakasu.bakasu.ui.navigation.LocalNavigator
-import org.bakasu.bakasu.ui.navigation.Navigator
-import org.bakasu.bakasu.ui.navigation.Route
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.blurEffect
-import org.bakasu.bakasu.ui.theme.blurSource
-import org.bakasu.bakasu.ui.theme.renderBackgroundBlur
-import org.bakasu.bakasu.ui.util.adaptiveScaffoldWindowInsets
+import com.resukisu.resukisu.BuildConfig
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.component.WarningCard
+import com.resukisu.resukisu.ui.component.settings.AppBackButton
+import com.resukisu.resukisu.ui.component.settings.SegmentedColumn
+import com.resukisu.resukisu.ui.component.settings.SettingsJumpPageWidget
+import com.resukisu.resukisu.ui.navigation.LocalNavigator
+import com.resukisu.resukisu.ui.navigation.Navigator
+import com.resukisu.resukisu.ui.navigation.Route
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.blurEffect
+import com.resukisu.resukisu.ui.theme.blurSource
+import com.resukisu.resukisu.ui.theme.renderBackgroundBlur
+import com.resukisu.resukisu.ui.util.adaptiveScaffoldWindowInsets
 import org.koin.compose.koinInject
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)

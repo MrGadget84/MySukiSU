@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamiccolor.ColorSpec

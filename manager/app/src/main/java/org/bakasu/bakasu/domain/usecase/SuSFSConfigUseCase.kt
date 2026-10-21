@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.susfs.SuSFSRepository
-import org.bakasu.bakasu.domain.model.SusKstatStatically
-import org.bakasu.bakasu.domain.model.UidScheme
+import com.resukisu.resukisu.data.susfs.SuSFSRepository
+import com.resukisu.resukisu.domain.model.SusKstatStatically
+import com.resukisu.resukisu.domain.model.UidScheme
 
 class SuSFSConfigUseCase(private val repository: SuSFSRepository) {
     suspend fun loadConfig() = repository.loadConfig()

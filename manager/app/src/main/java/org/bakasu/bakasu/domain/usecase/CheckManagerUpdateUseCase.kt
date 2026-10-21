@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.update.ManagerUpdateRepository
-import org.bakasu.bakasu.domain.model.ManagerUpdateChannel
-import org.bakasu.bakasu.domain.model.ManagerUpdateInfo
+import com.resukisu.resukisu.data.update.ManagerUpdateRepository
+import com.resukisu.resukisu.domain.model.ManagerUpdateChannel
+import com.resukisu.resukisu.domain.model.ManagerUpdateInfo
 
 class CheckManagerUpdateUseCase(
     private val repository: ManagerUpdateRepository,

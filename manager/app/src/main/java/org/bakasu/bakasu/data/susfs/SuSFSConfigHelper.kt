@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.susfs
+package com.resukisu.resukisu.data.susfs
 
 import android.content.Context
 import android.net.Uri
@@ -11,7 +11,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
 
 class SuSFSConfigHelper(
     private val ksuCliRepository: KsuCliRepository,

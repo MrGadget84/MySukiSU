@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -24,8 +24,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.theme.renderBackgroundBlur
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.theme.renderBackgroundBlur
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

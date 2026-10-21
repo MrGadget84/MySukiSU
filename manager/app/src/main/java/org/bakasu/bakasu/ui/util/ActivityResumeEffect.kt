@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.util
+package com.resukisu.resukisu.ui.util
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

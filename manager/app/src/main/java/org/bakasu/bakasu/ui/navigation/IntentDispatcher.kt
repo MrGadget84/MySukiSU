@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.navigation
+package com.resukisu.resukisu.ui.navigation
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -16,16 +16,16 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.net.toUri
 import kotlinx.coroutines.channels.ReceiveChannel
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.download.DownloadService
-import org.bakasu.bakasu.data.settings.SettingsPlatformRepository
-import org.bakasu.bakasu.domain.usecase.PeekOneshotScriptUseCase
-import org.bakasu.bakasu.ui.component.InstallConfirmationDialog
-import org.bakasu.bakasu.ui.component.ZipFileDetector
-import org.bakasu.bakasu.ui.component.ZipFileInfo
-import org.bakasu.bakasu.ui.component.ZipType
-import org.bakasu.bakasu.ui.webui.WebUIActivity
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.download.DownloadService
+import com.resukisu.resukisu.data.settings.SettingsPlatformRepository
+import com.resukisu.resukisu.domain.usecase.PeekOneshotScriptUseCase
+import com.resukisu.resukisu.ui.component.InstallConfirmationDialog
+import com.resukisu.resukisu.ui.component.ZipFileDetector
+import com.resukisu.resukisu.ui.component.ZipFileInfo
+import com.resukisu.resukisu.ui.component.ZipType
+import com.resukisu.resukisu.ui.webui.WebUIActivity
 import org.koin.compose.koinInject
 
 private const val SCHEME_KSU = "ksu"

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui
+package com.resukisu.resukisu.ui
 
 import android.content.Context
 import android.content.Intent
@@ -19,19 +19,19 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.StartupState
-import org.bakasu.bakasu.domain.usecase.ApplyLanguageUseCase
-import org.bakasu.bakasu.domain.usecase.EnsureManagerInstalledUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveStartupStateUseCase
-import org.bakasu.bakasu.ui.activity.util.ThemeUtils
-import org.bakasu.bakasu.ui.theme.KernelSUTheme
-import org.bakasu.bakasu.ui.viewmodel.HomeUiAction
-import org.bakasu.bakasu.ui.viewmodel.HomeViewModel
-import org.bakasu.bakasu.ui.viewmodel.ModuleUiAction
-import org.bakasu.bakasu.ui.viewmodel.ModuleViewModel
-import org.bakasu.bakasu.ui.viewmodel.SettingsUiAction
-import org.bakasu.bakasu.ui.viewmodel.SettingsUiEvent
-import org.bakasu.bakasu.ui.viewmodel.SettingsViewModel
+import com.resukisu.resukisu.domain.model.StartupState
+import com.resukisu.resukisu.domain.usecase.ApplyLanguageUseCase
+import com.resukisu.resukisu.domain.usecase.EnsureManagerInstalledUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveStartupStateUseCase
+import com.resukisu.resukisu.ui.activity.util.ThemeUtils
+import com.resukisu.resukisu.ui.theme.KernelSUTheme
+import com.resukisu.resukisu.ui.viewmodel.HomeUiAction
+import com.resukisu.resukisu.ui.viewmodel.HomeViewModel
+import com.resukisu.resukisu.ui.viewmodel.ModuleUiAction
+import com.resukisu.resukisu.ui.viewmodel.ModuleViewModel
+import com.resukisu.resukisu.ui.viewmodel.SettingsUiAction
+import com.resukisu.resukisu.ui.viewmodel.SettingsUiEvent
+import com.resukisu.resukisu.ui.viewmodel.SettingsViewModel
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

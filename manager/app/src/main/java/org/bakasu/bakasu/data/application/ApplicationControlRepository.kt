@@ -1,9 +1,9 @@
-package org.bakasu.bakasu.data.application
+package com.resukisu.resukisu.data.application
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.data.shell.KsuCliRepository
 
 class ApplicationControlRepository(
     private val ksuCliRepository: KsuCliRepository,

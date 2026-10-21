@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.packageinfo
+package com.resukisu.resukisu.data.packageinfo
 
 import android.content.pm.PackageInfo
 import kotlinx.coroutines.flow.MutableStateFlow

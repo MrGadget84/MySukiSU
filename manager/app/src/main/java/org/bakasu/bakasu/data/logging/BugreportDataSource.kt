@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.logging
+package com.resukisu.resukisu.data.logging
 
 import android.content.Context
 import android.os.Build
@@ -10,8 +10,8 @@ import java.io.FileWriter
 import java.io.PrintWriter
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.data.shell.KsuCliRepository
 
 fun getManagerVersion(context: Context): Pair<String, Long> {
     val packageInfo = context.packageManager.getPackageInfo(context.packageName, 0)!!

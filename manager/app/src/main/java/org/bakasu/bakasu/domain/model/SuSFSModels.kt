@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 import androidx.annotation.StringRes
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 enum class SusKstatType(@param:StringRes val resId: Int) {
     Normal(R.string.susfs_kstat_subtype_normal),

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import java.io.IOException
 import java.util.Base64
@@ -15,25 +15,25 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
-import org.bakasu.bakasu.data.module.registry.KernelSuRegistryRepository
-import org.bakasu.bakasu.data.module.registry.ModuleNotInIndexException
-import org.bakasu.bakasu.data.module.registry.RegistryCatalogMapper
-import org.bakasu.bakasu.data.network.NetworkRequestRepository
-import org.bakasu.bakasu.data.network.NetworkStatusRepository
-import org.bakasu.bakasu.data.network.toDocument
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.DocumentFormat
-import org.bakasu.bakasu.domain.model.DocumentPolicy
-import org.bakasu.bakasu.domain.model.HttpStatusException
-import org.bakasu.bakasu.domain.model.ModuleCatalogFailure
-import org.bakasu.bakasu.domain.model.ModuleCatalogResult
-import org.bakasu.bakasu.domain.model.ModuleReadme
-import org.bakasu.bakasu.domain.model.RepositoryApiType
-import org.bakasu.bakasu.domain.model.RepositoryError
-import org.bakasu.bakasu.domain.model.RepositoryException
-import org.bakasu.bakasu.domain.model.RepositoryFailure
-import org.bakasu.bakasu.domain.model.RepositorySource
-import org.bakasu.bakasu.domain.model.documentPolicy
+import com.resukisu.resukisu.data.module.registry.KernelSuRegistryRepository
+import com.resukisu.resukisu.data.module.registry.ModuleNotInIndexException
+import com.resukisu.resukisu.data.module.registry.RegistryCatalogMapper
+import com.resukisu.resukisu.data.network.NetworkRequestRepository
+import com.resukisu.resukisu.data.network.NetworkStatusRepository
+import com.resukisu.resukisu.data.network.toDocument
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.DocumentFormat
+import com.resukisu.resukisu.domain.model.DocumentPolicy
+import com.resukisu.resukisu.domain.model.HttpStatusException
+import com.resukisu.resukisu.domain.model.ModuleCatalogFailure
+import com.resukisu.resukisu.domain.model.ModuleCatalogResult
+import com.resukisu.resukisu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.RepositoryApiType
+import com.resukisu.resukisu.domain.model.RepositoryError
+import com.resukisu.resukisu.domain.model.RepositoryException
+import com.resukisu.resukisu.domain.model.RepositoryFailure
+import com.resukisu.resukisu.domain.model.RepositorySource
+import com.resukisu.resukisu.domain.model.documentPolicy
 import org.json.JSONObject
 
 data class RepositoryFeed(val source: RepositorySource, val modules: List<CatalogModule>, val error: RepositoryFailure? = null, val registryBuildId: String? = null)

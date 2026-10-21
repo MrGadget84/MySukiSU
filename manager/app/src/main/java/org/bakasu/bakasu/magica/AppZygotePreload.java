@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.magica;
+package com.resukisu.resukisu.magica;
 
 import android.annotation.SuppressLint;
 import android.app.ZygotePreload;

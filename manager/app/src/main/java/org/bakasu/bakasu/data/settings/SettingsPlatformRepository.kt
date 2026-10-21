@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.settings
+package com.resukisu.resukisu.data.settings
 
 import android.app.Application
 import android.content.ComponentName
@@ -11,18 +11,18 @@ import java.security.SecureRandom
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.data.theme.ThemeRepository
-import org.bakasu.bakasu.domain.model.AppearanceSetting
-import org.bakasu.bakasu.domain.model.PlatformFeatureStatus
-import org.bakasu.bakasu.domain.model.PlatformSetting
-import org.bakasu.bakasu.domain.model.SettingsPlatformSnapshot
-import org.bakasu.bakasu.magica.BootCompletedReceiver
-import org.bakasu.bakasu.ui.theme.BackgroundManager
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.data.theme.ThemeRepository
+import com.resukisu.resukisu.domain.model.AppearanceSetting
+import com.resukisu.resukisu.domain.model.PlatformFeatureStatus
+import com.resukisu.resukisu.domain.model.PlatformSetting
+import com.resukisu.resukisu.domain.model.SettingsPlatformSnapshot
+import com.resukisu.resukisu.magica.BootCompletedReceiver
+import com.resukisu.resukisu.ui.theme.BackgroundManager
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
 
 class SettingsPlatformRepository(
     private val application: Application,
@@ -316,8 +316,8 @@ class SettingsPlatformRepository(
 
     private fun toggleLauncherIcon(useAlt: Boolean) {
         val packageName = application.packageName
-        val main = ComponentName(packageName, "org.bakasu.bakasu.ui.MainActivity")
-        val alias = ComponentName(packageName, "org.bakasu.bakasu.ui.MainActivityAlias")
+        val main = ComponentName(packageName, "com.resukisu.resukisu.ui.MainActivity")
+        val alias = ComponentName(packageName, "com.resukisu.resukisu.ui.MainActivityAlias")
         application.packageManager.setComponentEnabledSetting(
             if (useAlt) alias else main,
             PackageManager.COMPONENT_ENABLED_STATE_ENABLED,

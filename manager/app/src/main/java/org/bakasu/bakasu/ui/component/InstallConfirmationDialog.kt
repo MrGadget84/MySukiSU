@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import android.content.Context
 import android.net.Uri
@@ -49,20 +49,20 @@ import java.io.InputStream
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.file.withInstallArchive
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.DownloadStatus
-import org.bakasu.bakasu.domain.model.ModuleReleaseAsset
-import org.bakasu.bakasu.domain.model.RepositorySource
-import org.bakasu.bakasu.domain.usecase.EnqueueDownloadUseCase
-import org.bakasu.bakasu.domain.usecase.GetModuleReleaseDetailsUseCase
-import org.bakasu.bakasu.domain.usecase.IsModuleUriAccessibleUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveAssetDownloadUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveDownloadUseCase
-import org.bakasu.bakasu.ui.util.LocalPermissionRequestInterface
-import org.bakasu.bakasu.ui.util.downloader.download
-import org.bakasu.bakasu.ui.util.downloader.downloadFailureMessage
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.file.withInstallArchive
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.DownloadStatus
+import com.resukisu.resukisu.domain.model.ModuleReleaseAsset
+import com.resukisu.resukisu.domain.model.RepositorySource
+import com.resukisu.resukisu.domain.usecase.EnqueueDownloadUseCase
+import com.resukisu.resukisu.domain.usecase.GetModuleReleaseDetailsUseCase
+import com.resukisu.resukisu.domain.usecase.IsModuleUriAccessibleUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveAssetDownloadUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveDownloadUseCase
+import com.resukisu.resukisu.ui.util.LocalPermissionRequestInterface
+import com.resukisu.resukisu.ui.util.downloader.download
+import com.resukisu.resukisu.ui.util.downloader.downloadFailureMessage
 import org.koin.compose.koinInject
 
 val LocalRepositoryModuleInstall = staticCompositionLocalOf<(Uri, CatalogModule, ModuleReleaseAsset, () -> Boolean) -> Unit> {

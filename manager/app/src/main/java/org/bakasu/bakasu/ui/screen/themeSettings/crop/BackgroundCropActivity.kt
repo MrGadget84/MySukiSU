@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.themeSettings.crop
+package com.resukisu.resukisu.ui.screen.themeSettings.crop
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -77,10 +77,10 @@ import com.yalantis.ucrop.view.UCropView
 import java.io.Serializable
 import kotlin.math.max
 import kotlin.math.min
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.component.KeyPointSlider
-import org.bakasu.bakasu.ui.theme.KernelSUTheme
-import org.bakasu.bakasu.ui.util.adaptiveScaffoldWindowInsets
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.component.KeyPointSlider
+import com.resukisu.resukisu.ui.theme.KernelSUTheme
+import com.resukisu.resukisu.ui.util.adaptiveScaffoldWindowInsets
 
 class BackgroundCropActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

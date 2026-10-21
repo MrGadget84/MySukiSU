@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.application.ApplicationControlRepository
+import com.resukisu.resukisu.data.application.ApplicationControlRepository
 
 class RebootUseCase(
     private val repository: ApplicationControlRepository,

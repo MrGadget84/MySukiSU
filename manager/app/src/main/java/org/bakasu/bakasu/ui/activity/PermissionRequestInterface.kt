@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.activity
+package com.resukisu.resukisu.ui.activity
 
 /**
  * @author AlexLiuDev233

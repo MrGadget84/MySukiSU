@@ -1,11 +1,11 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import java.text.DateFormat
 import java.util.Date
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.script.ScriptRunRecord
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.script.ScriptRunRecord
 
 @Composable
 fun scriptLastRunText(record: ScriptRunRecord?): String {

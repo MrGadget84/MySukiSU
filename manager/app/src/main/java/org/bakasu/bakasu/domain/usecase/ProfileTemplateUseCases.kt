@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.profile.ProfileTemplateRepository
-import org.bakasu.bakasu.domain.model.ProfileTemplate
+import com.resukisu.resukisu.data.profile.ProfileTemplateRepository
+import com.resukisu.resukisu.domain.model.ProfileTemplate
 
 class ObserveProfileTemplatesUseCase(private val repository: ProfileTemplateRepository) {
     operator fun invoke() = repository.templates

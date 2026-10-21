@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -13,7 +13,7 @@ import kotlinx.coroutines.withContext
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.bakasu.bakasu.data.module.registry.RegistryUrls
+import com.resukisu.resukisu.data.module.registry.RegistryUrls
 
 /** Bounded raster loading adapted from tiann/KernelSU's ModuleRepoScreen.kt. */
 class ModuleIconRepository(httpClient: OkHttpClient) {

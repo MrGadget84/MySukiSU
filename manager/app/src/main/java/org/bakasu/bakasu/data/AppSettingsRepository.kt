@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data
+package com.resukisu.resukisu.data
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -23,8 +23,8 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.domain.model.AppPreferences
-import org.bakasu.bakasu.domain.model.PreferenceValue
+import com.resukisu.resukisu.domain.model.AppPreferences
+import com.resukisu.resukisu.domain.model.PreferenceValue
 
 class AppSettingsRepository(
     context: Context,

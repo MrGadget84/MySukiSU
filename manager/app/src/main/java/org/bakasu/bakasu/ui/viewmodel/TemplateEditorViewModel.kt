@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -15,12 +15,12 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.bakasu.bakasu.domain.model.ProfileTemplate
-import org.bakasu.bakasu.domain.model.ProfileTemplateException
-import org.bakasu.bakasu.domain.model.ProfileTemplateFailure
-import org.bakasu.bakasu.domain.usecase.DeleteProfileTemplateUseCase
-import org.bakasu.bakasu.domain.usecase.GetProfileTemplateUseCase
-import org.bakasu.bakasu.domain.usecase.SaveProfileTemplateUseCase
+import com.resukisu.resukisu.domain.model.ProfileTemplate
+import com.resukisu.resukisu.domain.model.ProfileTemplateException
+import com.resukisu.resukisu.domain.model.ProfileTemplateFailure
+import com.resukisu.resukisu.domain.usecase.DeleteProfileTemplateUseCase
+import com.resukisu.resukisu.domain.usecase.GetProfileTemplateUseCase
+import com.resukisu.resukisu.domain.usecase.SaveProfileTemplateUseCase
 
 data class TemplateEditorUiState(
     val template: ProfileTemplate = ProfileTemplate(),

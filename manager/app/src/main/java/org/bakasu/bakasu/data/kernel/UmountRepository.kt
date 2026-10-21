@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.kernel
+package com.resukisu.resukisu.data.kernel
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
@@ -10,9 +10,9 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.UmountPath
-import org.bakasu.bakasu.domain.model.UmountState
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.UmountPath
+import com.resukisu.resukisu.domain.model.UmountState
 import org.json.JSONArray
 
 class UmountRepository(

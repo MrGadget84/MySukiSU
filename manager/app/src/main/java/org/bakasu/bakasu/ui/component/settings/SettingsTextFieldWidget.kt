@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.settings
+package com.resukisu.resukisu.ui.component.settings
 
 import android.os.Build
 import androidx.compose.animation.AnimatedVisibility

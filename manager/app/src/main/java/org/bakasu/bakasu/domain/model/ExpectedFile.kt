@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 /** Expected properties of a registry release ZIP. */
 data class ExpectedFile(val size: Long, val sha256: String) {

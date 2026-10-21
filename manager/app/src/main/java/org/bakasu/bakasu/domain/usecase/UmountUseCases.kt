@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.kernel.UmountRepository
-import org.bakasu.bakasu.domain.model.UmountPath
+import com.resukisu.resukisu.data.kernel.UmountRepository
+import com.resukisu.resukisu.domain.model.UmountPath
 
 class ObserveUmountStateUseCase(private val repository: UmountRepository) {
     operator fun invoke() = repository.state

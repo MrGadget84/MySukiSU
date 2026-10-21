@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.flash
+package com.resukisu.resukisu.data.flash
 
 import android.app.Application
 import android.net.Uri
@@ -19,14 +19,14 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.file.ModuleFileRepository
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.FlashOperation
-import org.bakasu.bakasu.domain.model.FlashOperationUpdate
-import org.bakasu.bakasu.domain.model.FlashProgress
-import org.bakasu.bakasu.domain.model.InstallEnvironment
-import org.bakasu.bakasu.domain.model.KernelFlashSession
-import org.bakasu.bakasu.getKernelVersion
+import com.resukisu.resukisu.data.file.ModuleFileRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.FlashOperation
+import com.resukisu.resukisu.domain.model.FlashOperationUpdate
+import com.resukisu.resukisu.domain.model.FlashProgress
+import com.resukisu.resukisu.domain.model.InstallEnvironment
+import com.resukisu.resukisu.domain.model.KernelFlashSession
+import com.resukisu.resukisu.getKernelVersion
 
 class FlashRepository(
     private val application: Application,

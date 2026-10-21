@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.network
+package com.resukisu.resukisu.data.network
 
 import java.io.IOException
 import java.net.InetAddress
@@ -11,9 +11,9 @@ import okhttp3.Dns
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
-import org.bakasu.bakasu.domain.model.DocumentFormat
-import org.bakasu.bakasu.domain.model.DocumentPolicy
-import org.bakasu.bakasu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.DocumentFormat
+import com.resukisu.resukisu.domain.model.DocumentPolicy
+import com.resukisu.resukisu.domain.model.ModuleReadme
 
 /** Redirects are checked even when the response comes from the HTTP cache. */
 internal fun OkHttpClient.documentResponse(initial: Request, policy: DocumentPolicy, callTimeoutSeconds: Long? = null, onCall: (Call) -> Unit = {}): Response {

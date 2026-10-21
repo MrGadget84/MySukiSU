@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -13,18 +13,18 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.bakasu.bakasu.domain.model.AppControlAction
-import org.bakasu.bakasu.domain.model.AppProfile
-import org.bakasu.bakasu.domain.model.InstalledAppGroup
-import org.bakasu.bakasu.domain.model.WEBVIEW_ZYGOTE_UID
-import org.bakasu.bakasu.domain.usecase.ControlAppUseCase
-import org.bakasu.bakasu.domain.usecase.GetAppProfileUseCase
-import org.bakasu.bakasu.domain.usecase.GetAppSepolicyUseCase
-import org.bakasu.bakasu.domain.usecase.GetDefaultUmountModulesUseCase
-import org.bakasu.bakasu.domain.usecase.GetSuperUserAppGroupUseCase
-import org.bakasu.bakasu.domain.usecase.SetAppProfileUseCase
-import org.bakasu.bakasu.domain.usecase.SetAppSepolicyUseCase
-import org.bakasu.bakasu.domain.usecase.ValidateSepolicyUseCase
+import com.resukisu.resukisu.domain.model.AppControlAction
+import com.resukisu.resukisu.domain.model.AppProfile
+import com.resukisu.resukisu.domain.model.InstalledAppGroup
+import com.resukisu.resukisu.domain.model.WEBVIEW_ZYGOTE_UID
+import com.resukisu.resukisu.domain.usecase.ControlAppUseCase
+import com.resukisu.resukisu.domain.usecase.GetAppProfileUseCase
+import com.resukisu.resukisu.domain.usecase.GetAppSepolicyUseCase
+import com.resukisu.resukisu.domain.usecase.GetDefaultUmountModulesUseCase
+import com.resukisu.resukisu.domain.usecase.GetSuperUserAppGroupUseCase
+import com.resukisu.resukisu.domain.usecase.SetAppProfileUseCase
+import com.resukisu.resukisu.domain.usecase.SetAppSepolicyUseCase
+import com.resukisu.resukisu.domain.usecase.ValidateSepolicyUseCase
 
 data class AppProfileUiState(
     val appGroup: InstalledAppGroup? = null,

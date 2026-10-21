@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.application.DynamicManagerRepository
+import com.resukisu.resukisu.data.application.DynamicManagerRepository
 
 class ObserveDynamicManagerStateUseCase(private val repository: DynamicManagerRepository) {
     operator fun invoke() = repository.state

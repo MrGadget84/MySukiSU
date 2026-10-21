@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.file.ModuleFileRepository
+import com.resukisu.resukisu.data.file.ModuleFileRepository
 
 class IsModuleUriAccessibleUseCase(private val repository: ModuleFileRepository) {
     operator fun invoke(uri: String) = repository.isUriAccessible(uri)

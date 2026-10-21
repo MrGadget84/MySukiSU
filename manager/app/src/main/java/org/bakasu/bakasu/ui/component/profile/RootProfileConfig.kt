@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.profile
+package com.resukisu.resukisu.ui.component.profile
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -30,18 +30,18 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.text.isDigitsOnly
-import org.bakasu.bakasu.Natives.Profile.RootProfileFlag
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.AppProfile
-import org.bakasu.bakasu.profile.Capabilities
-import org.bakasu.bakasu.profile.Groups
-import org.bakasu.bakasu.toRawFlags
-import org.bakasu.bakasu.toRootProfileFlags
-import org.bakasu.bakasu.ui.component.settings.SegmentedColumn
-import org.bakasu.bakasu.ui.component.settings.SegmentedColumnScope
-import org.bakasu.bakasu.ui.component.settings.SettingsBaseWidget
-import org.bakasu.bakasu.ui.component.settings.SettingsChooseWidget
-import org.bakasu.bakasu.ui.component.settings.SettingsTextFieldWidget
+import com.resukisu.resukisu.Natives.Profile.RootProfileFlag
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.AppProfile
+import com.resukisu.resukisu.profile.Capabilities
+import com.resukisu.resukisu.profile.Groups
+import com.resukisu.resukisu.toRawFlags
+import com.resukisu.resukisu.toRootProfileFlags
+import com.resukisu.resukisu.ui.component.settings.SegmentedColumn
+import com.resukisu.resukisu.ui.component.settings.SegmentedColumnScope
+import com.resukisu.resukisu.ui.component.settings.SettingsBaseWidget
+import com.resukisu.resukisu.ui.component.settings.SettingsChooseWidget
+import com.resukisu.resukisu.ui.component.settings.SettingsTextFieldWidget
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

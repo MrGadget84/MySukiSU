@@ -1,18 +1,18 @@
-package org.bakasu.bakasu.data.susfs
+package com.resukisu.resukisu.data.susfs
 
 import android.app.Application
 import androidx.core.net.toUri
-import org.bakasu.bakasu.domain.model.OpenRedirectItem as DomainOpenRedirectItem
-import org.bakasu.bakasu.domain.model.SuSFSConfig as DomainSuSFSConfig
-import org.bakasu.bakasu.domain.model.SuSFSSlotInfo as DomainSuSFSSlotInfo
-import org.bakasu.bakasu.domain.model.SuSFSStatus
-import org.bakasu.bakasu.domain.model.SuSFSStatusInfo as DomainSuSFSStatusInfo
-import org.bakasu.bakasu.domain.model.SusKstatItem as DomainSusKstatItem
-import org.bakasu.bakasu.domain.model.SusKstatStatically as DomainSusKstatStatically
-import org.bakasu.bakasu.domain.model.SusKstatType as DomainSusKstatType
-import org.bakasu.bakasu.domain.model.SusPathItem as DomainSusPathItem
-import org.bakasu.bakasu.domain.model.UidScheme as DomainUidScheme
-import org.bakasu.bakasu.domain.model.UnameConfig as DomainUnameConfig
+import com.resukisu.resukisu.domain.model.OpenRedirectItem as DomainOpenRedirectItem
+import com.resukisu.resukisu.domain.model.SuSFSConfig as DomainSuSFSConfig
+import com.resukisu.resukisu.domain.model.SuSFSSlotInfo as DomainSuSFSSlotInfo
+import com.resukisu.resukisu.domain.model.SuSFSStatus
+import com.resukisu.resukisu.domain.model.SuSFSStatusInfo as DomainSuSFSStatusInfo
+import com.resukisu.resukisu.domain.model.SusKstatItem as DomainSusKstatItem
+import com.resukisu.resukisu.domain.model.SusKstatStatically as DomainSusKstatStatically
+import com.resukisu.resukisu.domain.model.SusKstatType as DomainSusKstatType
+import com.resukisu.resukisu.domain.model.SusPathItem as DomainSusPathItem
+import com.resukisu.resukisu.domain.model.UidScheme as DomainUidScheme
+import com.resukisu.resukisu.domain.model.UnameConfig as DomainUnameConfig
 
 class SuSFSRepository(
     private val application: Application,

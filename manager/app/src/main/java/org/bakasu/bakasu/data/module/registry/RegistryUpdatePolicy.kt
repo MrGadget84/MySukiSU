@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.data.module.registry
+package com.resukisu.resukisu.data.module.registry
 
-import org.bakasu.bakasu.domain.model.ExpectedFile
+import com.resukisu.resukisu.domain.model.ExpectedFile
 
 /** How an `updateJson` update of an installed module is downloaded and verified. */
 sealed interface UpdateVerification {

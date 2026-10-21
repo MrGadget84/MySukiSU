@@ -16,7 +16,7 @@
 
 // adapt from androidx.compose.foundation.AndroidEdgeEffectOverscrollFactory
 
-package org.bakasu.bakasu.ui.overscroll
+package com.resukisu.resukisu.ui.overscroll
 
 import android.content.Context
 import android.graphics.RenderNode
@@ -63,11 +63,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastFilter
 import androidx.compose.ui.util.fastFirstOrNull
 import kotlin.math.roundToInt
-import org.bakasu.bakasu.ui.overscroll.EdgeEffectCompat.absorbToRelaxIfNeeded
-import org.bakasu.bakasu.ui.overscroll.EdgeEffectCompat.distanceCompat
-import org.bakasu.bakasu.ui.overscroll.EdgeEffectCompat.onAbsorbCompat
-import org.bakasu.bakasu.ui.overscroll.EdgeEffectCompat.onPullDistanceCompat
-import org.bakasu.bakasu.ui.overscroll.EdgeEffectCompat.onReleaseWithOppositeDelta
+import com.resukisu.resukisu.ui.overscroll.EdgeEffectCompat.absorbToRelaxIfNeeded
+import com.resukisu.resukisu.ui.overscroll.EdgeEffectCompat.distanceCompat
+import com.resukisu.resukisu.ui.overscroll.EdgeEffectCompat.onAbsorbCompat
+import com.resukisu.resukisu.ui.overscroll.EdgeEffectCompat.onPullDistanceCompat
+import com.resukisu.resukisu.ui.overscroll.EdgeEffectCompat.onReleaseWithOppositeDelta
 
 /**
  * Creates and remembers an instance of the platform [OverscrollFactory], with the provided

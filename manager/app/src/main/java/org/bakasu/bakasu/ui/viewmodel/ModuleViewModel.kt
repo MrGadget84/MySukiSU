@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,22 +14,22 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.data.module.ModulePreferencesRepository
-import org.bakasu.bakasu.domain.model.InstalledModule
-import org.bakasu.bakasu.domain.model.MetaModuleStatus
-import org.bakasu.bakasu.domain.model.ModuleUpdateVerification
-import org.bakasu.bakasu.domain.usecase.CalculateInstalledModuleSizeUseCase
-import org.bakasu.bakasu.domain.usecase.GetBooleanPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.GetModuleUpdateChangelogUseCase
-import org.bakasu.bakasu.domain.usecase.IsSoftRebootPreferredUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveInstalledModulesUseCase
-import org.bakasu.bakasu.domain.usecase.RebootUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshInstalledModulesUseCase
-import org.bakasu.bakasu.domain.usecase.ResolveModuleUpdateUseCase
-import org.bakasu.bakasu.domain.usecase.SetModuleEnabledUseCase
-import org.bakasu.bakasu.domain.usecase.SetModuleRemovedUseCase
-import org.bakasu.bakasu.domain.usecase.TransliterateTextUseCase
-import org.bakasu.bakasu.domain.usecase.UpdateCachedModuleEnabledUseCase
+import com.resukisu.resukisu.data.module.ModulePreferencesRepository
+import com.resukisu.resukisu.domain.model.InstalledModule
+import com.resukisu.resukisu.domain.model.MetaModuleStatus
+import com.resukisu.resukisu.domain.model.ModuleUpdateVerification
+import com.resukisu.resukisu.domain.usecase.CalculateInstalledModuleSizeUseCase
+import com.resukisu.resukisu.domain.usecase.GetBooleanPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.GetModuleUpdateChangelogUseCase
+import com.resukisu.resukisu.domain.usecase.IsSoftRebootPreferredUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveInstalledModulesUseCase
+import com.resukisu.resukisu.domain.usecase.RebootUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshInstalledModulesUseCase
+import com.resukisu.resukisu.domain.usecase.ResolveModuleUpdateUseCase
+import com.resukisu.resukisu.domain.usecase.SetModuleEnabledUseCase
+import com.resukisu.resukisu.domain.usecase.SetModuleRemovedUseCase
+import com.resukisu.resukisu.domain.usecase.TransliterateTextUseCase
+import com.resukisu.resukisu.domain.usecase.UpdateCachedModuleEnabledUseCase
 
 data class ModuleUiState(
     val moduleList: List<InstalledModule> = emptyList(),

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.settings
+package com.resukisu.resukisu.ui.component.settings
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -14,7 +14,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
 import org.koin.compose.koinInject
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

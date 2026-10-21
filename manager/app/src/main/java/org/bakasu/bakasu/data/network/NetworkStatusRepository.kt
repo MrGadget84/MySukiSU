@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.network
+package com.resukisu.resukisu.data.network
 
 import android.app.Application
 import android.content.Context

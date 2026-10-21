@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
 import java.io.File
-import org.bakasu.bakasu.data.logging.BugreportRepository
+import com.resukisu.resukisu.data.logging.BugreportRepository
 
 class GenerateBugreportUseCase(
     private val repository: BugreportRepository,

@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
-import org.bakasu.bakasu.KernelVersion
-import org.bakasu.bakasu.Natives.KernelPatchImplementation
+import com.resukisu.resukisu.KernelVersion
+import com.resukisu.resukisu.Natives.KernelPatchImplementation
 
 data class ManagerRecord(
     val uid: Int,

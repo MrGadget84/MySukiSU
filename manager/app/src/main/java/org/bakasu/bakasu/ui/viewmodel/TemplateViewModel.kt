@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -10,13 +10,13 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.ProfileTemplate
-import org.bakasu.bakasu.domain.usecase.ExportProfileTemplatesUseCase
-import org.bakasu.bakasu.domain.usecase.ImportProfileTemplatesUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveProfileTemplateOfflineUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveProfileTemplateRefreshingUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveProfileTemplatesUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshProfileTemplatesUseCase
+import com.resukisu.resukisu.domain.model.ProfileTemplate
+import com.resukisu.resukisu.domain.usecase.ExportProfileTemplatesUseCase
+import com.resukisu.resukisu.domain.usecase.ImportProfileTemplatesUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveProfileTemplateOfflineUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveProfileTemplateRefreshingUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveProfileTemplatesUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshProfileTemplatesUseCase
 
 data class TemplateUiState(
     val templateList: List<ProfileTemplate> = emptyList(),

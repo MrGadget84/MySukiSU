@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -11,12 +11,12 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.FlashProgress
-import org.bakasu.bakasu.domain.usecase.GetBooleanPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveKernelFlashUseCase
-import org.bakasu.bakasu.domain.usecase.RebootUseCase
-import org.bakasu.bakasu.domain.usecase.RemovePreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.StartKernelFlashUseCase
+import com.resukisu.resukisu.domain.model.FlashProgress
+import com.resukisu.resukisu.domain.usecase.GetBooleanPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveKernelFlashUseCase
+import com.resukisu.resukisu.domain.usecase.RebootUseCase
+import com.resukisu.resukisu.domain.usecase.RemovePreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.StartKernelFlashUseCase
 
 data class KernelFlashUiState(
     val requestUri: String? = null,

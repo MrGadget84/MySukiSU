@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonParseException
@@ -6,13 +6,13 @@ import com.google.gson.Strictness
 import com.google.gson.reflect.TypeToken
 import java.time.Instant
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
-import org.bakasu.bakasu.domain.model.CatalogAuthor
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.ModuleRelease
-import org.bakasu.bakasu.domain.model.ModuleReleaseAsset
-import org.bakasu.bakasu.domain.model.RepositoryError
-import org.bakasu.bakasu.domain.model.RepositoryException
-import org.bakasu.bakasu.domain.model.RepositorySource
+import com.resukisu.resukisu.domain.model.CatalogAuthor
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.ModuleRelease
+import com.resukisu.resukisu.domain.model.ModuleReleaseAsset
+import com.resukisu.resukisu.domain.model.RepositoryError
+import com.resukisu.resukisu.domain.model.RepositoryException
+import com.resukisu.resukisu.domain.model.RepositorySource
 
 object MmrlRepositoryParser {
     private val gson = GsonBuilder().setStrictness(Strictness.STRICT).create()

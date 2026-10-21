@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.script
+package com.resukisu.resukisu.data.script
 
 import androidx.annotation.Keep
 import com.google.gson.JsonNull

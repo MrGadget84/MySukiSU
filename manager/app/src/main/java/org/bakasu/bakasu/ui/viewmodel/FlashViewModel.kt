@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
@@ -12,13 +12,13 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.FlashOperation
-import org.bakasu.bakasu.domain.model.FlashOperationUpdate
-import org.bakasu.bakasu.domain.usecase.CheckFlashModuleMountUseCase
-import org.bakasu.bakasu.domain.usecase.ExecuteFlashOperationUseCase
-import org.bakasu.bakasu.domain.usecase.IsSoftRebootPreferredUseCase
-import org.bakasu.bakasu.domain.usecase.RebootUseCase
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.FlashOperation
+import com.resukisu.resukisu.domain.model.FlashOperationUpdate
+import com.resukisu.resukisu.domain.usecase.CheckFlashModuleMountUseCase
+import com.resukisu.resukisu.domain.usecase.ExecuteFlashOperationUseCase
+import com.resukisu.resukisu.domain.usecase.IsSoftRebootPreferredUseCase
+import com.resukisu.resukisu.domain.usecase.RebootUseCase
 
 enum class FlashingStatus(@param:StringRes val resId: Int) {
     FLASHING(R.string.flashing),

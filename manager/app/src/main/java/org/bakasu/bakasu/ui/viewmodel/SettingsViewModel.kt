@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
@@ -14,21 +14,21 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.AppearanceSetting
-import org.bakasu.bakasu.domain.model.PlatformSetting
-import org.bakasu.bakasu.domain.model.SettingsPlatformSnapshot
-import org.bakasu.bakasu.domain.model.coerceCompatibleWith
-import org.bakasu.bakasu.domain.usecase.ConfigureSuLogUseCase
-import org.bakasu.bakasu.domain.usecase.GetKernelFeatureSettingsUseCase
-import org.bakasu.bakasu.domain.usecase.GetPlatformFeatureStatusUseCase
-import org.bakasu.bakasu.domain.usecase.LoadSettingsPlatformUseCase
-import org.bakasu.bakasu.domain.usecase.SetDefaultUmountModulesUseCase
-import org.bakasu.bakasu.domain.usecase.SetKernelUmountEnabledUseCase
-import org.bakasu.bakasu.domain.usecase.SetSelinuxHideEnabledUseCase
-import org.bakasu.bakasu.domain.usecase.SetSuEnabledUseCase
-import org.bakasu.bakasu.domain.usecase.UpdateAppearanceUseCase
-import org.bakasu.bakasu.domain.usecase.UpdatePlatformSettingUseCase
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.AppearanceSetting
+import com.resukisu.resukisu.domain.model.PlatformSetting
+import com.resukisu.resukisu.domain.model.SettingsPlatformSnapshot
+import com.resukisu.resukisu.domain.model.coerceCompatibleWith
+import com.resukisu.resukisu.domain.usecase.ConfigureSuLogUseCase
+import com.resukisu.resukisu.domain.usecase.GetKernelFeatureSettingsUseCase
+import com.resukisu.resukisu.domain.usecase.GetPlatformFeatureStatusUseCase
+import com.resukisu.resukisu.domain.usecase.LoadSettingsPlatformUseCase
+import com.resukisu.resukisu.domain.usecase.SetDefaultUmountModulesUseCase
+import com.resukisu.resukisu.domain.usecase.SetKernelUmountEnabledUseCase
+import com.resukisu.resukisu.domain.usecase.SetSelinuxHideEnabledUseCase
+import com.resukisu.resukisu.domain.usecase.SetSuEnabledUseCase
+import com.resukisu.resukisu.domain.usecase.UpdateAppearanceUseCase
+import com.resukisu.resukisu.domain.usecase.UpdatePlatformSettingUseCase
 
 enum class PredictiveBackAnimation(val value: String, @param:StringRes val resId: Int) {
     None("none", R.string.predictive_back_animation_none),

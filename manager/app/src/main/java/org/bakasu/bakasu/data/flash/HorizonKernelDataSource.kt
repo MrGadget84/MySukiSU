@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.flash
+package com.resukisu.resukisu.data.flash
 
 import android.content.Context
 import android.net.Uri
@@ -10,9 +10,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.FlashProgress
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.FlashProgress
 
 /**
  * @author ShirkNeko

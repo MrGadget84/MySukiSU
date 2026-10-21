@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen
+package com.resukisu.resukisu.ui.screen
 
 import android.annotation.SuppressLint
 import android.widget.Toast
@@ -10,14 +10,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.flow.collectLatest
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.component.ModuleActionOutput
-import org.bakasu.bakasu.ui.navigation.LocalNavigator
-import org.bakasu.bakasu.ui.util.LocalSnackbarHost
-import org.bakasu.bakasu.ui.util.showReplacingSnackbar
-import org.bakasu.bakasu.ui.viewmodel.ExecuteModuleActionUiAction
-import org.bakasu.bakasu.ui.viewmodel.ExecuteModuleActionUiEvent
-import org.bakasu.bakasu.ui.viewmodel.ExecuteModuleActionViewModel
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.component.ModuleActionOutput
+import com.resukisu.resukisu.ui.navigation.LocalNavigator
+import com.resukisu.resukisu.ui.util.LocalSnackbarHost
+import com.resukisu.resukisu.ui.util.showReplacingSnackbar
+import com.resukisu.resukisu.ui.viewmodel.ExecuteModuleActionUiAction
+import com.resukisu.resukisu.ui.viewmodel.ExecuteModuleActionUiEvent
+import com.resukisu.resukisu.ui.viewmodel.ExecuteModuleActionViewModel
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 

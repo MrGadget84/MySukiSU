@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bakasu.bakasu.ui.webui
+package com.resukisu.resukisu.ui.webui
 
 import java.net.URLConnection
 

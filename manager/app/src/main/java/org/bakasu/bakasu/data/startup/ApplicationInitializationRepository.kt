@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.startup
+package com.resukisu.resukisu.data.startup
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -9,8 +9,8 @@ import com.topjohnwu.superuser.internal.MainShell
 import java.io.File
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.data.flash.FlashRepository
-import org.bakasu.bakasu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.data.flash.FlashRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
 
 class ApplicationInitializationRepository(
     private val application: Application,

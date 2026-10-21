@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.webui
+package com.resukisu.resukisu.data.webui
 
 import com.topjohnwu.superuser.CallbackList
 import com.topjohnwu.superuser.Shell
@@ -6,10 +6,10 @@ import com.topjohnwu.superuser.internal.UiThreadHandler
 import com.topjohnwu.superuser.io.SuFile
 import com.topjohnwu.superuser.io.SuFileInputStream
 import java.util.concurrent.CompletableFuture
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.WebUiCommandResult
-import org.bakasu.bakasu.domain.model.WebUiModuleInfo
-import org.bakasu.bakasu.domain.model.WebUiProcess
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.WebUiCommandResult
+import com.resukisu.resukisu.domain.model.WebUiModuleInfo
+import com.resukisu.resukisu.domain.model.WebUiProcess
 
 class WebUiRepository(
     private val ksuCliRepository: KsuCliRepository,

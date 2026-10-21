@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
-import org.bakasu.bakasu.Natives
+import com.resukisu.resukisu.Natives
 
 data class AppProfile(
     val name: String,

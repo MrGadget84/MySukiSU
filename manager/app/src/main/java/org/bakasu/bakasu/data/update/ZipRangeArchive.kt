@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.update
+package com.resukisu.resukisu.data.update
 
 import java.io.ByteArrayInputStream
 import java.io.File

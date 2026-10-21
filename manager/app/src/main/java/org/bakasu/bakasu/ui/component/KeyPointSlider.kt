@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.annotation.IntRange
 import androidx.compose.foundation.Canvas

@@ -1,11 +1,11 @@
-package org.bakasu.bakasu
+package com.resukisu.resukisu
 
 import android.os.Parcelable
 import androidx.annotation.Keep
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Immutable
 import kotlinx.parcelize.Parcelize
-import org.bakasu.bakasu.Natives.Profile.RootProfileFlag
+import com.resukisu.resukisu.Natives.Profile.RootProfileFlag
 
 /**
  * @author weishu

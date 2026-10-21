@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.overscroll
+package com.resukisu.resukisu.ui.overscroll
 
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.getValue

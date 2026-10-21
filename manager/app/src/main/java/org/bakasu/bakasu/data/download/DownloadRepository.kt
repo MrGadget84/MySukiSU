@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.download
+package com.resukisu.resukisu.data.download
 
 import android.app.Application
 import android.content.Intent
@@ -8,14 +8,14 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import org.bakasu.bakasu.data.module.registry.RegistryUrls
-import org.bakasu.bakasu.data.module.registry.canShareDownload
-import org.bakasu.bakasu.domain.model.DownloadState
-import org.bakasu.bakasu.domain.model.DownloadStatus
-import org.bakasu.bakasu.domain.model.DownloadVerificationFailure
-import org.bakasu.bakasu.domain.model.ExpectedFile
-import org.bakasu.bakasu.domain.model.ManagerApkSource
-import org.bakasu.bakasu.domain.model.ManagerUpdateInfo
+import com.resukisu.resukisu.data.module.registry.RegistryUrls
+import com.resukisu.resukisu.data.module.registry.canShareDownload
+import com.resukisu.resukisu.domain.model.DownloadState
+import com.resukisu.resukisu.domain.model.DownloadStatus
+import com.resukisu.resukisu.domain.model.DownloadVerificationFailure
+import com.resukisu.resukisu.domain.model.ExpectedFile
+import com.resukisu.resukisu.domain.model.ManagerApkSource
+import com.resukisu.resukisu.domain.model.ManagerUpdateInfo
 
 class DownloadRepository(
     private val application: Application,

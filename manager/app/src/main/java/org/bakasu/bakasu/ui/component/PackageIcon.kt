@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import android.content.pm.PackageInfo
 import androidx.compose.runtime.Composable
@@ -11,7 +11,7 @@ import coil.request.CachePolicy
 import coil.request.ImageRequest
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.packageinfo.AppIconDataSource
+import com.resukisu.resukisu.data.packageinfo.AppIconDataSource
 import org.koin.compose.koinInject
 
 /** Resolves a package name to the [PackageInfo] model expected by AppIconFetcher. */

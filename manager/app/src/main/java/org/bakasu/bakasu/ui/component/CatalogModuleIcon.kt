@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size
@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.domain.usecase.LoadModuleIconUseCase
+import com.resukisu.resukisu.domain.usecase.LoadModuleIconUseCase
 import org.koin.compose.koinInject
 
 /** Decorative thumbnail; missing, pending and failed images occupy no space. */

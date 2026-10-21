@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.profile
+package com.resukisu.resukisu.ui.component.profile
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -23,13 +23,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.AppProfile
-import org.bakasu.bakasu.ui.component.NetworkRefreshContent
-import org.bakasu.bakasu.ui.component.settings.SettingsChooseWidget
-import org.bakasu.bakasu.ui.util.ActivityResumeEffect
-import org.bakasu.bakasu.ui.viewmodel.TemplateUiAction
-import org.bakasu.bakasu.ui.viewmodel.TemplateViewModel
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.AppProfile
+import com.resukisu.resukisu.ui.component.NetworkRefreshContent
+import com.resukisu.resukisu.ui.component.settings.SettingsChooseWidget
+import com.resukisu.resukisu.ui.util.ActivityResumeEffect
+import com.resukisu.resukisu.ui.viewmodel.TemplateUiAction
+import com.resukisu.resukisu.ui.viewmodel.TemplateViewModel
 import org.koin.compose.viewmodel.koinViewModel
 
 /**

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.screen.susfs.subpages
+package com.resukisu.resukisu.ui.screen.susfs.subpages
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
@@ -24,27 +24,27 @@ import androidx.compose.ui.input.nestedscroll.NestedScrollConnection
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.SusKstatItem
-import org.bakasu.bakasu.domain.model.SusKstatStatically
-import org.bakasu.bakasu.domain.model.SusKstatType
-import org.bakasu.bakasu.ui.component.settings.SettingsBaseWidget
-import org.bakasu.bakasu.ui.component.settings.SettingsJumpPageWidget
-import org.bakasu.bakasu.ui.component.settings.SettingsTextFieldWidget
-import org.bakasu.bakasu.ui.screen.susfs.RegisterSuSFSRefresh
-import org.bakasu.bakasu.ui.screen.susfs.SuSFSRefreshRegistrar
-import org.bakasu.bakasu.ui.screen.susfs.component.EntryDetailDialog
-import org.bakasu.bakasu.ui.screen.susfs.component.ManualAddDialog
-import org.bakasu.bakasu.ui.screen.susfs.component.SuSFSDescriptionCard
-import org.bakasu.bakasu.ui.screen.susfs.component.susfsEntryList
-import org.bakasu.bakasu.ui.screen.susfs.component.toImportedEntryLines
-import org.bakasu.bakasu.ui.util.LocalSnackbarHost
-import org.bakasu.bakasu.ui.util.showReplacingSnackbar
-import org.bakasu.bakasu.ui.viewmodel.SuSFSUiAction
-import org.bakasu.bakasu.ui.viewmodel.SuSFSViewModel
-import org.bakasu.bakasu.ui.viewmodel.SusKstatOperation
-import org.bakasu.bakasu.ui.viewmodel.awaitSuSFSBoolean
-import org.bakasu.bakasu.ui.viewmodel.awaitSuSFSConfig
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.SusKstatItem
+import com.resukisu.resukisu.domain.model.SusKstatStatically
+import com.resukisu.resukisu.domain.model.SusKstatType
+import com.resukisu.resukisu.ui.component.settings.SettingsBaseWidget
+import com.resukisu.resukisu.ui.component.settings.SettingsJumpPageWidget
+import com.resukisu.resukisu.ui.component.settings.SettingsTextFieldWidget
+import com.resukisu.resukisu.ui.screen.susfs.RegisterSuSFSRefresh
+import com.resukisu.resukisu.ui.screen.susfs.SuSFSRefreshRegistrar
+import com.resukisu.resukisu.ui.screen.susfs.component.EntryDetailDialog
+import com.resukisu.resukisu.ui.screen.susfs.component.ManualAddDialog
+import com.resukisu.resukisu.ui.screen.susfs.component.SuSFSDescriptionCard
+import com.resukisu.resukisu.ui.screen.susfs.component.susfsEntryList
+import com.resukisu.resukisu.ui.screen.susfs.component.toImportedEntryLines
+import com.resukisu.resukisu.ui.util.LocalSnackbarHost
+import com.resukisu.resukisu.ui.util.showReplacingSnackbar
+import com.resukisu.resukisu.ui.viewmodel.SuSFSUiAction
+import com.resukisu.resukisu.ui.viewmodel.SuSFSViewModel
+import com.resukisu.resukisu.ui.viewmodel.SusKstatOperation
+import com.resukisu.resukisu.ui.viewmodel.awaitSuSFSBoolean
+import com.resukisu.resukisu.ui.viewmodel.awaitSuSFSConfig
 import org.koin.compose.viewmodel.koinViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)

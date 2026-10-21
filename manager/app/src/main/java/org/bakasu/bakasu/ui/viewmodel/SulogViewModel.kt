@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -12,17 +12,17 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.SulogEntry
-import org.bakasu.bakasu.domain.model.SulogEventFilter
-import org.bakasu.bakasu.domain.model.SulogFile
-import org.bakasu.bakasu.domain.model.defaultSulogEventFilters
-import org.bakasu.bakasu.domain.model.filterSulogEntries
-import org.bakasu.bakasu.domain.usecase.CleanSulogUseCase
-import org.bakasu.bakasu.domain.usecase.EnableSulogUseCase
-import org.bakasu.bakasu.domain.usecase.GetStringSetPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveSulogStateUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshSulogUseCase
-import org.bakasu.bakasu.domain.usecase.SetStringSetPreferenceUseCase
+import com.resukisu.resukisu.domain.model.SulogEntry
+import com.resukisu.resukisu.domain.model.SulogEventFilter
+import com.resukisu.resukisu.domain.model.SulogFile
+import com.resukisu.resukisu.domain.model.defaultSulogEventFilters
+import com.resukisu.resukisu.domain.model.filterSulogEntries
+import com.resukisu.resukisu.domain.usecase.CleanSulogUseCase
+import com.resukisu.resukisu.domain.usecase.EnableSulogUseCase
+import com.resukisu.resukisu.domain.usecase.GetStringSetPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveSulogStateUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshSulogUseCase
+import com.resukisu.resukisu.domain.usecase.SetStringSetPreferenceUseCase
 
 data class SulogScreenState(
     val isLoading: Boolean = true,

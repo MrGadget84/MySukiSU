@@ -1,7 +1,7 @@
 // Adapted from Kyant0/AndroidLiquidGlass — https://github.com/Kyant0/AndroidLiquidGlass (Apache 2.0).
 // Mirrored from compose-miuix-ui example.
 
-package org.bakasu.bakasu.ui.component.liquid
+package com.resukisu.resukisu.ui.component.liquid
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable

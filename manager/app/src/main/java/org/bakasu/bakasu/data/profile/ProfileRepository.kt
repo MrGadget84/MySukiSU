@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.profile
+package com.resukisu.resukisu.data.profile
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -6,11 +6,11 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.AllowlistRestoreResult
-import org.bakasu.bakasu.domain.model.AppControlAction
-import org.bakasu.bakasu.domain.model.AppProfile
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.AllowlistRestoreResult
+import com.resukisu.resukisu.domain.model.AppControlAction
+import com.resukisu.resukisu.domain.model.AppProfile
 
 data class AppProfileKey(
     val packageName: String,

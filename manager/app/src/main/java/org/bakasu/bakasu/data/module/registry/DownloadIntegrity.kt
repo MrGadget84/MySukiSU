@@ -1,11 +1,11 @@
-package org.bakasu.bakasu.data.module.registry
+package com.resukisu.resukisu.data.module.registry
 
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
 import java.security.MessageDigest
-import org.bakasu.bakasu.domain.model.ExpectedFile
+import com.resukisu.resukisu.domain.model.ExpectedFile
 
 class DownloadVerificationException(val reason: Reason, message: String) : IOException(message) {
     enum class Reason { URL_NOT_ALLOWED, SIZE_MISMATCH, SHA256_MISMATCH }

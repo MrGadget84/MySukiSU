@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module
+package com.resukisu.resukisu.data.module
 
 import android.os.SystemClock
 import android.util.LruCache
@@ -18,17 +18,17 @@ import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.sync.withPermit
 import kotlinx.coroutines.withContext
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
-import org.bakasu.bakasu.data.network.NetworkRequestRepository
-import org.bakasu.bakasu.data.network.NetworkResponse
-import org.bakasu.bakasu.data.network.toDocument
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.DocumentFormat
-import org.bakasu.bakasu.domain.model.DocumentPolicy
-import org.bakasu.bakasu.domain.model.ModuleReadme
-import org.bakasu.bakasu.domain.model.ModuleRelease
-import org.bakasu.bakasu.domain.model.ModuleReleaseDetails
-import org.bakasu.bakasu.domain.model.RepositorySource
-import org.bakasu.bakasu.domain.model.documentPolicy
+import com.resukisu.resukisu.data.network.NetworkRequestRepository
+import com.resukisu.resukisu.data.network.NetworkResponse
+import com.resukisu.resukisu.data.network.toDocument
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.DocumentFormat
+import com.resukisu.resukisu.domain.model.DocumentPolicy
+import com.resukisu.resukisu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.ModuleRelease
+import com.resukisu.resukisu.domain.model.ModuleReleaseDetails
+import com.resukisu.resukisu.domain.model.RepositorySource
+import com.resukisu.resukisu.domain.model.documentPolicy
 import org.json.JSONObject
 
 /** Resolves presentation metadata without changing the selected repository's downloadable assets. */

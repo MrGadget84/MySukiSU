@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 import androidx.annotation.StringRes
 import java.io.IOException
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 enum class RepositoryApiType(@param:StringRes val resId: Int) {
     KERNEL_SU(R.string.repo_api_kernel_su),

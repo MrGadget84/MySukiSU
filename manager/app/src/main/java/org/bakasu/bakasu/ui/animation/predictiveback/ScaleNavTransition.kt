@@ -1,9 +1,9 @@
-package org.bakasu.bakasu.ui.animation.predictiveback
+package com.resukisu.resukisu.ui.animation.predictiveback
 
 import androidx.compose.animation.core.CubicBezierEasing
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.ui.graphics.TransformOrigin
-import org.bakasu.bakasu.ui.viewmodel.PredictiveBackExitDirection
+import com.resukisu.resukisu.ui.viewmodel.PredictiveBackExitDirection
 import top.yukonga.miuix.kmp.nav.transition.NavGesture
 import top.yukonga.miuix.kmp.nav.transition.NavMotion
 import top.yukonga.miuix.kmp.nav.transition.NavRole

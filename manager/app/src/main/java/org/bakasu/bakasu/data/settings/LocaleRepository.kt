@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.data.settings
+package com.resukisu.resukisu.data.settings
 
 import android.content.Context
 import android.os.Build
-import org.bakasu.bakasu.data.settings.launchSystemLanguageSettings as launchSystemLanguageSettingsInternal
+import com.resukisu.resukisu.data.settings.launchSystemLanguageSettings as launchSystemLanguageSettingsInternal
 
 class LocaleRepository(
     private val localeHelper: LocaleHelper,

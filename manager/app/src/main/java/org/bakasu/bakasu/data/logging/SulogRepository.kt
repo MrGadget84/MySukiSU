@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.logging
+package com.resukisu.resukisu.data.logging
 
 import android.os.SystemClock
 import com.topjohnwu.superuser.io.SuFile
@@ -16,10 +16,10 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.SulogFile
-import org.bakasu.bakasu.domain.model.SulogState
-import org.bakasu.bakasu.domain.model.parseSulogLines
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.SulogFile
+import com.resukisu.resukisu.domain.model.SulogState
+import com.resukisu.resukisu.domain.model.parseSulogLines
 
 class SulogRepository(
     private val ksuCliRepository: KsuCliRepository,

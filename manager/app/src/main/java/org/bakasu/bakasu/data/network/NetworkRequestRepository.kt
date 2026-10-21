@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.network
+package com.resukisu.resukisu.data.network
 
 import java.util.concurrent.TimeUnit
 import kotlinx.coroutines.Dispatchers
@@ -7,8 +7,8 @@ import okhttp3.CacheControl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okio.Buffer
-import org.bakasu.bakasu.domain.model.DocumentPolicy
-import org.bakasu.bakasu.domain.model.HttpStatusException
+import com.resukisu.resukisu.domain.model.DocumentPolicy
+import com.resukisu.resukisu.domain.model.HttpStatusException
 
 data class NetworkResponse(
     val body: String?,

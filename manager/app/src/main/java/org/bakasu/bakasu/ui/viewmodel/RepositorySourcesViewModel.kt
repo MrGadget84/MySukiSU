@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -10,13 +10,13 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.RepositoryApiType
-import org.bakasu.bakasu.domain.model.RepositoryFailure
-import org.bakasu.bakasu.domain.model.RepositorySource
-import org.bakasu.bakasu.domain.usecase.AddModuleRepositoryUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveRepositorySourcesUseCase
-import org.bakasu.bakasu.domain.usecase.RemoveModuleRepositoryUseCase
-import org.bakasu.bakasu.domain.usecase.RenameModuleRepositoryUseCase
+import com.resukisu.resukisu.domain.model.RepositoryApiType
+import com.resukisu.resukisu.domain.model.RepositoryFailure
+import com.resukisu.resukisu.domain.model.RepositorySource
+import com.resukisu.resukisu.domain.usecase.AddModuleRepositoryUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveRepositorySourcesUseCase
+import com.resukisu.resukisu.domain.usecase.RemoveModuleRepositoryUseCase
+import com.resukisu.resukisu.domain.usecase.RenameModuleRepositoryUseCase
 
 data class RepositorySourcesUiState(
     val sources: List<RepositorySource> = emptyList(),

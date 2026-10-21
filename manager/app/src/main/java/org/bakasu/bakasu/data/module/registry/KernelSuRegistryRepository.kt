@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.module.registry
+package com.resukisu.resukisu.data.module.registry
 
 import android.app.Application
 import java.io.File
@@ -18,19 +18,19 @@ import okhttp3.CacheControl
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.bakasu.bakasu.data.module.RepositorySourceStore
-import org.bakasu.bakasu.data.network.NetworkStatusRepository
-import org.bakasu.bakasu.data.network.documentResponse
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.DocumentFormat
-import org.bakasu.bakasu.domain.model.DocumentPolicy
-import org.bakasu.bakasu.domain.model.HttpStatusException
-import org.bakasu.bakasu.domain.model.ModuleReadme
-import org.bakasu.bakasu.domain.model.ModuleUpdateVerification
-import org.bakasu.bakasu.domain.model.RepositoryApiType
-import org.bakasu.bakasu.domain.model.RepositoryError
-import org.bakasu.bakasu.domain.model.RepositoryException
-import org.bakasu.bakasu.domain.model.RepositoryFailure
+import com.resukisu.resukisu.data.module.RepositorySourceStore
+import com.resukisu.resukisu.data.network.NetworkStatusRepository
+import com.resukisu.resukisu.data.network.documentResponse
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.DocumentFormat
+import com.resukisu.resukisu.domain.model.DocumentPolicy
+import com.resukisu.resukisu.domain.model.HttpStatusException
+import com.resukisu.resukisu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.ModuleUpdateVerification
+import com.resukisu.resukisu.domain.model.RepositoryApiType
+import com.resukisu.resukisu.domain.model.RepositoryError
+import com.resukisu.resukisu.domain.model.RepositoryException
+import com.resukisu.resukisu.domain.model.RepositoryFailure
 
 class KernelSuRegistryRepository private constructor(
     private val application: Application,

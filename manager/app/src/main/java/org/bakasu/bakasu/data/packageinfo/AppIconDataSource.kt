@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.packageinfo
+package com.resukisu.resukisu.data.packageinfo
 
 import android.app.Application
 import android.content.Context

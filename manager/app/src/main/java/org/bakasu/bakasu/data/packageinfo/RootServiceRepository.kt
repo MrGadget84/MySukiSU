@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.packageinfo
+package com.resukisu.resukisu.data.packageinfo
 
 import android.app.Application
 import android.content.ComponentName
@@ -22,8 +22,8 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeoutOrNull
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.SuperUserLoadFailure
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.SuperUserLoadFailure
 import org.bakasu.rootService.IKsuInterface
 
 class RootServiceException(val reason: SuperUserLoadFailure, cause: Throwable? = null) : IOException(reason.name, cause)

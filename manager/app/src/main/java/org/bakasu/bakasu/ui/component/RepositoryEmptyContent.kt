@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,8 +17,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.RepositoryFailure
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.RepositoryFailure
 
 @Composable
 fun repositoryErrorText(failure: RepositoryFailure): String {

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.application
+package com.resukisu.resukisu.data.application
 
 import java.io.File
 import kotlinx.coroutines.Dispatchers
@@ -9,12 +9,12 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.data.kernel.KernelRepository
-import org.bakasu.bakasu.data.packageinfo.InstalledPackageRepository
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.DynamicManagerApp
-import org.bakasu.bakasu.domain.model.DynamicManagerConfig
-import org.bakasu.bakasu.domain.model.DynamicManagerState
+import com.resukisu.resukisu.data.kernel.KernelRepository
+import com.resukisu.resukisu.data.packageinfo.InstalledPackageRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.DynamicManagerApp
+import com.resukisu.resukisu.domain.model.DynamicManagerConfig
+import com.resukisu.resukisu.domain.model.DynamicManagerState
 
 class DynamicManagerRepository(
     private val kernelRepository: KernelRepository,

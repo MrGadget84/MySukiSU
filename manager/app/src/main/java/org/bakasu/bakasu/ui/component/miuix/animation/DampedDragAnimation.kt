@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.miuix.animation
+package com.resukisu.resukisu.ui.component.miuix.animation
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.spring
@@ -17,7 +17,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.android.awaitFrame
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.ui.component.miuix.modifier.inspectDragGestures
+import com.resukisu.resukisu.ui.component.miuix.modifier.inspectDragGestures
 
 class DampedDragAnimation(
     private val animationScope: CoroutineScope,

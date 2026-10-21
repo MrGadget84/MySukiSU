@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
@@ -14,20 +14,20 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.AllowlistOperationResult
-import org.bakasu.bakasu.domain.model.InstalledAppGroup
-import org.bakasu.bakasu.domain.model.SuperUserLoadFailure
-import org.bakasu.bakasu.domain.usecase.BackupAllowlistUseCase
-import org.bakasu.bakasu.domain.usecase.GetBooleanPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.GetManagerRuntimeInfoUseCase
-import org.bakasu.bakasu.domain.usecase.GetStringPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.ImportAllowlistUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveSuperUserStateUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshSuperUsersUseCase
-import org.bakasu.bakasu.domain.usecase.SetBooleanPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.SetStringPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.TransliterateTextUseCase
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.AllowlistOperationResult
+import com.resukisu.resukisu.domain.model.InstalledAppGroup
+import com.resukisu.resukisu.domain.model.SuperUserLoadFailure
+import com.resukisu.resukisu.domain.usecase.BackupAllowlistUseCase
+import com.resukisu.resukisu.domain.usecase.GetBooleanPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.GetManagerRuntimeInfoUseCase
+import com.resukisu.resukisu.domain.usecase.GetStringPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.ImportAllowlistUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveSuperUserStateUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshSuperUsersUseCase
+import com.resukisu.resukisu.domain.usecase.SetBooleanPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.SetStringPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.TransliterateTextUseCase
 
 enum class SortType(@param:StringRes val displayNameRes: Int, val persistKey: String) {
     NAME(R.string.sort_name, "NAME"),

@@ -1,10 +1,10 @@
-package org.bakasu.bakasu.data.network
+package com.resukisu.resukisu.data.network
 
 import okhttp3.Headers.Companion.toHeaders
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.bakasu.bakasu.domain.model.DocumentPolicy
-import org.bakasu.bakasu.domain.model.WebResource
+import com.resukisu.resukisu.domain.model.DocumentPolicy
+import com.resukisu.resukisu.domain.model.WebResource
 
 class WebResourceRepository(private val httpClient: OkHttpClient) {
     fun load(url: String, method: String, requestHeaders: Map<String, String>, policy: DocumentPolicy): WebResource? = runCatching {

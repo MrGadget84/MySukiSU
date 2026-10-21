@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.text
+package com.resukisu.resukisu.data.text
 
 /*
  * Copyright (C) 2009 The Android Open Source Project
@@ -20,7 +20,7 @@ import android.text.TextUtils
 import android.util.Log
 import java.text.Collator
 import java.util.Locale
-import org.bakasu.bakasu.domain.text.TextTransliterator
+import com.resukisu.resukisu.domain.text.TextTransliterator
 
 class HanziToPinyin private constructor(val hasChinaCollator: Boolean) : TextTransliterator {
 

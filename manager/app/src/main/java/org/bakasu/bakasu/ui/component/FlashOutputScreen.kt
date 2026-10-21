@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component
+package com.resukisu.resukisu.ui.component
 
 import android.os.Environment
 import androidx.compose.foundation.layout.Box
@@ -41,18 +41,18 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.ui.component.settings.AppBackButton
-import org.bakasu.bakasu.ui.theme.CardConfig
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.blurEffect
-import org.bakasu.bakasu.ui.theme.blurSource
-import org.bakasu.bakasu.ui.theme.monospaceFontFamily
-import org.bakasu.bakasu.ui.util.LocalSnackbarHost
-import org.bakasu.bakasu.ui.util.adaptiveScaffoldWindowInsets
-import org.bakasu.bakasu.ui.util.showReplacingSnackbar
-import org.bakasu.bakasu.ui.viewmodel.FlashState
-import org.bakasu.bakasu.ui.viewmodel.FlashingStatus
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.ui.component.settings.AppBackButton
+import com.resukisu.resukisu.ui.theme.CardConfig
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.blurEffect
+import com.resukisu.resukisu.ui.theme.blurSource
+import com.resukisu.resukisu.ui.theme.monospaceFontFamily
+import com.resukisu.resukisu.ui.util.LocalSnackbarHost
+import com.resukisu.resukisu.ui.util.adaptiveScaffoldWindowInsets
+import com.resukisu.resukisu.ui.util.showReplacingSnackbar
+import com.resukisu.resukisu.ui.viewmodel.FlashState
+import com.resukisu.resukisu.ui.viewmodel.FlashingStatus
 import org.koin.compose.koinInject
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -11,9 +11,9 @@ import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.domain.model.ModuleActionUpdate
-import org.bakasu.bakasu.domain.usecase.ExecuteModuleActionUseCase
-import org.bakasu.bakasu.domain.usecase.SaveModuleActionLogUseCase
+import com.resukisu.resukisu.domain.model.ModuleActionUpdate
+import com.resukisu.resukisu.domain.usecase.ExecuteModuleActionUseCase
+import com.resukisu.resukisu.domain.usecase.SaveModuleActionLogUseCase
 
 data class ExecuteModuleActionUiState(
     val output: String = "",

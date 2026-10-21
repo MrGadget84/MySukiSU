@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.domain.model
+package com.resukisu.resukisu.domain.model
 
 /** A streaming command handle whose platform implementation stays in the data layer. */
 interface WebUiProcess {

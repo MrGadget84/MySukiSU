@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
 import android.content.Context
-import org.bakasu.bakasu.data.settings.LocaleRepository
+import com.resukisu.resukisu.data.settings.LocaleRepository
 
 class ApplyLanguageUseCase(private val repository: LocaleRepository) {
     operator fun invoke(context: Context): Context = repository.applyLanguage(context)

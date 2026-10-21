@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.flash.FlashRepository
-import org.bakasu.bakasu.domain.model.InstallEnvironment
+import com.resukisu.resukisu.data.flash.FlashRepository
+import com.resukisu.resukisu.domain.model.InstallEnvironment
 
 class GetInstallEnvironmentUseCase(
     private val repository: FlashRepository,

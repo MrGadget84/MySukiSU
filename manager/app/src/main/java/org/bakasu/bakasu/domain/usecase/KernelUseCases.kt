@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.kernel.KernelRepository
+import com.resukisu.resukisu.data.kernel.KernelRepository
 
 class GetKernelStatusUseCase(private val repository: KernelRepository) {
     suspend operator fun invoke() = repository.getStatus()

@@ -1,6 +1,6 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.module.ModuleRepository
+import com.resukisu.resukisu.data.module.ModuleRepository
 
 class SetModuleEnabledUseCase(
     private val repository: ModuleRepository,

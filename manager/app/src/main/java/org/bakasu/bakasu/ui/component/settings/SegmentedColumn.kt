@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.bakasu.bakasu.ui.component.settings
+package com.resukisu.resukisu.ui.component.settings
 
 import android.os.Build
 import androidx.compose.animation.core.animateDpAsState
@@ -40,9 +40,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.max
 import androidx.compose.ui.zIndex
 import kotlin.math.roundToInt
-import org.bakasu.bakasu.ui.theme.ThemeConfig
-import org.bakasu.bakasu.ui.theme.renderBackgroundBlur
-import org.bakasu.bakasu.ui.util.LocalBackgroundBlurProvided
+import com.resukisu.resukisu.ui.theme.ThemeConfig
+import com.resukisu.resukisu.ui.theme.renderBackgroundBlur
+import com.resukisu.resukisu.ui.util.LocalBackgroundBlurProvided
 import org.koin.compose.koinInject
 
 private const val PADDING_HORIZONTAL = 16

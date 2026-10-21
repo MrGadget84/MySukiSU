@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.theme
+package com.resukisu.resukisu.ui.theme
 
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.contentColorFor
@@ -11,7 +11,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.bakasu.bakasu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.AppSettingsRepository
 import org.koin.compose.koinInject
 
 @Stable

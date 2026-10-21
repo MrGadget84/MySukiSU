@@ -1,9 +1,9 @@
-package org.bakasu.bakasu.data.theme
+package com.resukisu.resukisu.data.theme
 
 import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamiccolor.ColorSpec
-import org.bakasu.bakasu.data.AppSettingsRepository
-import org.bakasu.bakasu.domain.model.coerceCompatibleWith
+import com.resukisu.resukisu.data.AppSettingsRepository
+import com.resukisu.resukisu.domain.model.coerceCompatibleWith
 
 class ThemeRepository(
     private val settings: AppSettingsRepository,

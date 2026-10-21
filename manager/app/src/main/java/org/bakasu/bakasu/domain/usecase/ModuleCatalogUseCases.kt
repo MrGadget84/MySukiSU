@@ -1,20 +1,20 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.firstOrNull
-import org.bakasu.bakasu.data.module.ModuleCatalogRepository
-import org.bakasu.bakasu.data.module.ModuleIconRepository
-import org.bakasu.bakasu.data.module.ModuleReleaseRepository
-import org.bakasu.bakasu.data.module.registry.KernelSuRegistryRepository
-import org.bakasu.bakasu.data.module.registry.RegistryUrls
-import org.bakasu.bakasu.data.network.NetworkRequestRepository
-import org.bakasu.bakasu.data.network.toDocument
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.DocumentPolicy
-import org.bakasu.bakasu.domain.model.ModuleReadme
-import org.bakasu.bakasu.domain.model.ModuleRelease
-import org.bakasu.bakasu.domain.model.ModuleUpdateVerification
-import org.bakasu.bakasu.domain.model.RepositoryApiType
+import com.resukisu.resukisu.data.module.ModuleCatalogRepository
+import com.resukisu.resukisu.data.module.ModuleIconRepository
+import com.resukisu.resukisu.data.module.ModuleReleaseRepository
+import com.resukisu.resukisu.data.module.registry.KernelSuRegistryRepository
+import com.resukisu.resukisu.data.module.registry.RegistryUrls
+import com.resukisu.resukisu.data.network.NetworkRequestRepository
+import com.resukisu.resukisu.data.network.toDocument
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.DocumentPolicy
+import com.resukisu.resukisu.domain.model.ModuleReadme
+import com.resukisu.resukisu.domain.model.ModuleRelease
+import com.resukisu.resukisu.domain.model.ModuleUpdateVerification
+import com.resukisu.resukisu.domain.model.RepositoryApiType
 
 class ObserveCatalogModulesUseCase(private val repository: ModuleCatalogRepository) {
     operator fun invoke() = repository.modules

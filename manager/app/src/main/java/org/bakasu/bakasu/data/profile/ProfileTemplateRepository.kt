@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.profile
+package com.resukisu.resukisu.data.profile
 
 import java.text.Collator
 import java.util.Locale
@@ -9,17 +9,17 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.bakasu.bakasu.Natives
-import org.bakasu.bakasu.Natives.Profile.Namespace
-import org.bakasu.bakasu.Natives.Profile.RootProfileFlag
-import org.bakasu.bakasu.data.network.NetworkRequestRepository
-import org.bakasu.bakasu.data.network.NetworkStatusRepository
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.domain.model.ProfileTemplate
-import org.bakasu.bakasu.domain.model.ProfileTemplateException
-import org.bakasu.bakasu.domain.model.ProfileTemplateFailure
-import org.bakasu.bakasu.profile.Capabilities
-import org.bakasu.bakasu.profile.Groups
+import com.resukisu.resukisu.Natives
+import com.resukisu.resukisu.Natives.Profile.Namespace
+import com.resukisu.resukisu.Natives.Profile.RootProfileFlag
+import com.resukisu.resukisu.data.network.NetworkRequestRepository
+import com.resukisu.resukisu.data.network.NetworkStatusRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.domain.model.ProfileTemplate
+import com.resukisu.resukisu.domain.model.ProfileTemplateException
+import com.resukisu.resukisu.domain.model.ProfileTemplateFailure
+import com.resukisu.resukisu.profile.Capabilities
+import com.resukisu.resukisu.profile.Groups
 import org.json.JSONArray
 import org.json.JSONObject
 

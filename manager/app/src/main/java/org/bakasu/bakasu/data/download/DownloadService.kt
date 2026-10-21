@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.download
+package com.resukisu.resukisu.data.download
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -29,19 +29,19 @@ import kotlinx.coroutines.launch
 import okhttp3.Call
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.bakasu.bakasu.BuildConfig
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.data.module.registry.DownloadVerificationException
-import org.bakasu.bakasu.data.module.registry.DownloadVerifier
-import org.bakasu.bakasu.data.module.registry.RegistryDownloadStore
-import org.bakasu.bakasu.data.module.registry.RegistryUrls
-import org.bakasu.bakasu.data.settings.SettingsPlatformRepository
-import org.bakasu.bakasu.data.update.ManagerUpdateRepository
-import org.bakasu.bakasu.data.update.ZipRangeArchive
-import org.bakasu.bakasu.domain.model.DownloadStatus
-import org.bakasu.bakasu.domain.model.DownloadVerificationFailure
-import org.bakasu.bakasu.domain.model.ExpectedFile
-import org.bakasu.bakasu.ui.MainActivity
+import com.resukisu.resukisu.BuildConfig
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.data.module.registry.DownloadVerificationException
+import com.resukisu.resukisu.data.module.registry.DownloadVerifier
+import com.resukisu.resukisu.data.module.registry.RegistryDownloadStore
+import com.resukisu.resukisu.data.module.registry.RegistryUrls
+import com.resukisu.resukisu.data.settings.SettingsPlatformRepository
+import com.resukisu.resukisu.data.update.ManagerUpdateRepository
+import com.resukisu.resukisu.data.update.ZipRangeArchive
+import com.resukisu.resukisu.domain.model.DownloadStatus
+import com.resukisu.resukisu.domain.model.DownloadVerificationFailure
+import com.resukisu.resukisu.domain.model.ExpectedFile
+import com.resukisu.resukisu.ui.MainActivity
 import org.koin.android.ext.android.inject
 
 class DownloadService : Service() {
@@ -52,11 +52,11 @@ class DownloadService : Service() {
 
     companion object {
         const val CHANNEL_ID = "download_channel"
-        const val ACTION_DOWNLOAD = "org.bakasu.bakasu.action.DOWNLOAD"
-        const val ACTION_DOWNLOAD_MANAGER_APK = "org.bakasu.bakasu.action.DOWNLOAD_MANAGER_APK"
-        const val ACTION_CANCEL = "org.bakasu.bakasu.action.CANCEL_DOWNLOAD"
-        const val ACTION_DISMISS_DOWNLOAD = "org.bakasu.bakasu.action.DISMISS_DOWNLOAD"
-        const val ACTION_INSTALL_MODULE = "org.bakasu.bakasu.action.INSTALL_MODULE"
+        const val ACTION_DOWNLOAD = "com.resukisu.resukisu.action.DOWNLOAD"
+        const val ACTION_DOWNLOAD_MANAGER_APK = "com.resukisu.resukisu.action.DOWNLOAD_MANAGER_APK"
+        const val ACTION_CANCEL = "com.resukisu.resukisu.action.CANCEL_DOWNLOAD"
+        const val ACTION_DISMISS_DOWNLOAD = "com.resukisu.resukisu.action.DISMISS_DOWNLOAD"
+        const val ACTION_INSTALL_MODULE = "com.resukisu.resukisu.action.INSTALL_MODULE"
         const val EXTRA_URL = "url"
         const val EXTRA_TOKEN = "token"
         const val EXTRA_FILE_NAME = "fileName"

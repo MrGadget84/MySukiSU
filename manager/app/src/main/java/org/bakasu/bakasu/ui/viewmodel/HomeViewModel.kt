@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -16,23 +16,23 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.bakasu.bakasu.data.count.CountRepository
-import org.bakasu.bakasu.data.module.ModuleRepository
-import org.bakasu.bakasu.data.packageinfo.SuperUserRepository
-import org.bakasu.bakasu.data.shell.KsuCliRepository
-import org.bakasu.bakasu.data.system.HomeStateRepository
-import org.bakasu.bakasu.domain.model.HomeDashboardState
-import org.bakasu.bakasu.domain.model.HomeSystemInfo
-import org.bakasu.bakasu.domain.model.ManagerUpdateChannel
-import org.bakasu.bakasu.domain.usecase.CheckManagerUpdateUseCase
-import org.bakasu.bakasu.domain.usecase.GetBooleanPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.GetHomeBasicInfoUseCase
-import org.bakasu.bakasu.domain.usecase.GetKernelStatusUseCase
-import org.bakasu.bakasu.domain.usecase.GetManagerRuntimeInfoUseCase
-import org.bakasu.bakasu.domain.usecase.GetSuSFSStatusUseCase
-import org.bakasu.bakasu.domain.usecase.IsNetworkAvailableUseCase
-import org.bakasu.bakasu.domain.usecase.RebootUseCase
-import org.bakasu.bakasu.domain.usecase.SetBooleanPreferenceUseCase
+import com.resukisu.resukisu.data.count.CountRepository
+import com.resukisu.resukisu.data.module.ModuleRepository
+import com.resukisu.resukisu.data.packageinfo.SuperUserRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.data.system.HomeStateRepository
+import com.resukisu.resukisu.domain.model.HomeDashboardState
+import com.resukisu.resukisu.domain.model.HomeSystemInfo
+import com.resukisu.resukisu.domain.model.ManagerUpdateChannel
+import com.resukisu.resukisu.domain.usecase.CheckManagerUpdateUseCase
+import com.resukisu.resukisu.domain.usecase.GetBooleanPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.GetHomeBasicInfoUseCase
+import com.resukisu.resukisu.domain.usecase.GetKernelStatusUseCase
+import com.resukisu.resukisu.domain.usecase.GetManagerRuntimeInfoUseCase
+import com.resukisu.resukisu.domain.usecase.GetSuSFSStatusUseCase
+import com.resukisu.resukisu.domain.usecase.IsNetworkAvailableUseCase
+import com.resukisu.resukisu.domain.usecase.RebootUseCase
+import com.resukisu.resukisu.domain.usecase.SetBooleanPreferenceUseCase
 
 typealias HomeUiState = HomeDashboardState
 

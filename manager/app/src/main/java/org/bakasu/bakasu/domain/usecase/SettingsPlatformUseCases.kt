@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
-import org.bakasu.bakasu.data.settings.SettingsPlatformRepository
-import org.bakasu.bakasu.domain.model.AppearanceSetting
-import org.bakasu.bakasu.domain.model.PlatformSetting
+import com.resukisu.resukisu.data.settings.SettingsPlatformRepository
+import com.resukisu.resukisu.domain.model.AppearanceSetting
+import com.resukisu.resukisu.domain.model.PlatformSetting
 
 class LoadSettingsPlatformUseCase(private val repository: SettingsPlatformRepository) {
     operator fun invoke() = repository.load()

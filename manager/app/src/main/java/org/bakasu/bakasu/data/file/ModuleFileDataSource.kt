@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.file
+package com.resukisu.resukisu.data.file
 
 import android.content.ContentResolver
 import android.content.Context
@@ -6,7 +6,7 @@ import android.content.Intent
 import android.net.Uri
 import android.util.Log
 import java.util.Properties
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 class ModuleUtils {
     private companion object {

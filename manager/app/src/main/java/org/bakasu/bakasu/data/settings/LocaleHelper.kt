@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.settings
+package com.resukisu.resukisu.data.settings
 
 import android.annotation.SuppressLint
 import android.annotation.TargetApi
@@ -9,7 +9,7 @@ import android.net.Uri
 import android.os.Build
 import android.provider.Settings
 import java.util.Locale
-import org.bakasu.bakasu.data.AppSettingsRepository
+import com.resukisu.resukisu.data.AppSettingsRepository
 
 /**
  * Launch system app locale settings (Android 13+)

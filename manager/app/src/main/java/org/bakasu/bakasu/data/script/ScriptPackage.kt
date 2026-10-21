@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.data.script
+package com.resukisu.resukisu.data.script
 
 import androidx.annotation.StringRes
 import java.io.ByteArrayOutputStream
@@ -13,7 +13,7 @@ import java.util.UUID
 import java.util.zip.ZipInputStream
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry
 import org.apache.commons.compress.archivers.zip.ZipFile
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 class ScriptPackageException(val reason: Reason, message: String, cause: Throwable? = null) : IOException(message, cause) {
     enum class Reason(@param:StringRes val resId: Int) {

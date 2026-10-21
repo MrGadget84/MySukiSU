@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.viewmodel
+package com.resukisu.resukisu.ui.viewmodel
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.SavedStateHandle
@@ -12,21 +12,21 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.R
-import org.bakasu.bakasu.domain.model.CatalogModule
-import org.bakasu.bakasu.domain.model.ModuleCatalogResult
-import org.bakasu.bakasu.domain.model.ModuleReleaseAsset
-import org.bakasu.bakasu.domain.model.RepositoryFailure
-import org.bakasu.bakasu.domain.model.RepositorySource
-import org.bakasu.bakasu.domain.usecase.GetBooleanPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.GetCatalogModuleUseCase
-import org.bakasu.bakasu.domain.usecase.IsCatalogModuleCurrentUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveCatalogModulesUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveModuleCatalogRefreshingUseCase
-import org.bakasu.bakasu.domain.usecase.ObserveRepositorySourcesUseCase
-import org.bakasu.bakasu.domain.usecase.RefreshModuleCatalogUseCase
-import org.bakasu.bakasu.domain.usecase.SetBooleanPreferenceUseCase
-import org.bakasu.bakasu.domain.usecase.TransliterateTextUseCase
+import com.resukisu.resukisu.R
+import com.resukisu.resukisu.domain.model.CatalogModule
+import com.resukisu.resukisu.domain.model.ModuleCatalogResult
+import com.resukisu.resukisu.domain.model.ModuleReleaseAsset
+import com.resukisu.resukisu.domain.model.RepositoryFailure
+import com.resukisu.resukisu.domain.model.RepositorySource
+import com.resukisu.resukisu.domain.usecase.GetBooleanPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.GetCatalogModuleUseCase
+import com.resukisu.resukisu.domain.usecase.IsCatalogModuleCurrentUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveCatalogModulesUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveModuleCatalogRefreshingUseCase
+import com.resukisu.resukisu.domain.usecase.ObserveRepositorySourcesUseCase
+import com.resukisu.resukisu.domain.usecase.RefreshModuleCatalogUseCase
+import com.resukisu.resukisu.domain.usecase.SetBooleanPreferenceUseCase
+import com.resukisu.resukisu.domain.usecase.TransliterateTextUseCase
 
 enum class CatalogContent(@param:StringRes val resId: Int? = null) {
     LOADING,

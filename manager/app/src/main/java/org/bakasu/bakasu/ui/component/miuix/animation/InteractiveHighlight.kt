@@ -1,4 +1,4 @@
-package org.bakasu.bakasu.ui.component.miuix.animation
+package com.resukisu.resukisu.ui.component.miuix.animation
 
 import android.annotation.SuppressLint
 import android.graphics.RuntimeShader
@@ -19,7 +19,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.util.fastCoerceIn
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import org.bakasu.bakasu.ui.component.miuix.modifier.inspectDragGestures
+import com.resukisu.resukisu.ui.component.miuix.modifier.inspectDragGestures
 import org.intellij.lang.annotations.Language
 
 @SuppressLint("NewApi")

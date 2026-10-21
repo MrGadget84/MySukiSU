@@ -1,8 +1,8 @@
-package org.bakasu.bakasu.data.logging
+package com.resukisu.resukisu.data.logging
 
 import android.app.Application
 import java.io.File
-import org.bakasu.bakasu.data.shell.KsuCliRepository
+import com.resukisu.resukisu.data.shell.KsuCliRepository
 
 class BugreportRepository(
     private val application: Application,

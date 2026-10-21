@@ -1,13 +1,13 @@
-package org.bakasu.bakasu.domain.usecase
+package com.resukisu.resukisu.domain.usecase
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
-import org.bakasu.bakasu.data.download.DownloadRepository
-import org.bakasu.bakasu.domain.model.DownloadState
-import org.bakasu.bakasu.domain.model.ExpectedFile
-import org.bakasu.bakasu.domain.model.ManagerUpdateInfo
-import org.bakasu.bakasu.domain.model.ModuleReleaseAsset
+import com.resukisu.resukisu.data.download.DownloadRepository
+import com.resukisu.resukisu.domain.model.DownloadState
+import com.resukisu.resukisu.domain.model.ExpectedFile
+import com.resukisu.resukisu.domain.model.ManagerUpdateInfo
+import com.resukisu.resukisu.domain.model.ModuleReleaseAsset
 
 class EnqueueDownloadUseCase(private val repository: DownloadRepository) {
     operator fun invoke(url: String, fileName: String, expected: ExpectedFile? = null): Int = repository.enqueue(url, fileName, expected)

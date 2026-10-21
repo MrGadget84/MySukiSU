@@ -1,7 +1,7 @@
-package org.bakasu.bakasu.data.script
+package com.resukisu.resukisu.data.script
 
 import androidx.annotation.StringRes
-import org.bakasu.bakasu.R
+import com.resukisu.resukisu.R
 
 /** What the manager knows about the running KernelSU, exported to the script like ksud does. */
 data class ScriptHostInfo(
