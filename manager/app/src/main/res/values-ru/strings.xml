@@ -190,7 +190,7 @@
     <string name="settings_exp_draw_background_to_blur">Нарисовать кастомный фон для блюра</string>
     <string name="settings_exp_draw_background_to_blur_description">Экспериментальная функция, используйте на ваш страх и риск</string>
     <string name="settings_config_use_custom_background_seed_color">Выбрать цвет с кастомного фона</string>
-    <string name="settings_config_use_custom_background_seed_color_summary">Извлечь динамический сид цвета из кастомного фона</string>
+    <string name="settings_config_use_custom_background_seed_color_summary">Извлечь динамический код цвета из кастомного фона</string>
     <string name="settings_custom_enable_high_contrast">Режим высокой контрастности</string>
     <string name="settings_custom_enable_high_contrast_summary">Отрисовывать тень вокруг текста</string>
     <string name="settings_card_alpha">Прозрачность карточек</string>
@@ -198,7 +198,7 @@
     <string name="home_device_model">Модель устройства</string>
     <string name="su_not_allowed">Предоставление рут-доступа %s запрещено</string>
     <string name="settings_sucompat">Классическая команда su</string>
-    <string name="settings_sucompat_summary">Разрешить root-доступ через /system/bin/su в новых процессах.</string>
+    <string name="settings_sucompat_summary">Разрешить рут-доступ через /system/bin/su в новых процессах.</string>
     <string name="settings_kernel_umount">Размонтирование модулей</string>
     <string name="settings_kernel_umount_summary">Размонтировать модули в ядре для профиля приложения</string>
     <string name="feature_status_unsupported_summary">Ядро не поддерживает данную функцию</string>
@@ -541,7 +541,7 @@
     <string name="sort_size">Размер</string>
     <string name="reverse_order">Обратный порядок</string>
     <string name="enable_floating_bottom_bar">Плавающая нижняя панель</string>
-    <string name="enable_floating_bottom_bar_summary">Использовать Apple-стиль для плавающей нижней панели</string>
+    <string name="enable_floating_bottom_bar_summary">Использовать стиль Apple для плавающей нижней панели</string>
     <string name="settings_soft_reboot">Мягкая перезагрузка вместо полной перезагрузки</string>
     <string name="settings_soft_reboot_summary">Используйте мягкую перезагрузку вместо полной перезагрузки при установке, обновлении или переключении модулей</string>
     <string name="advanced_options">Расширенные опции</string>

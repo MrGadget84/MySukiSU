@@ -873,7 +873,7 @@ pub fn patch(args: BootPatchArgs) -> Result<()> {
             let output_dir = out.unwrap_or(std::env::current_dir()?);
             let name = out_name.unwrap_or_else(|| {
                 let now = chrono::Utc::now();
-                format!("kernelsu_patched_{}.img", now.format("%Y%m%d_%H%M%S"))
+                format!("resukisu_patched_{}.img", now.format("%Y%m%d_%H%M%S"))
             });
             let output_image = output_dir.join(name);
             std::fs::write(&output_image, &new_boot_bytes).context("write out new boot failed")?;
@@ -966,7 +966,7 @@ pub fn restore(args: BootRestoreArgs) -> Result<()> {
 
     ensure!(
         cpio.exists("kernelsu.ko"),
-        "boot image is not patched by KernelSU"
+        "boot image is not patched by ReSukiSU"
     );
 
     #[cfg(target_os = "android")]
@@ -1035,7 +1035,7 @@ pub fn restore(args: BootRestoreArgs) -> Result<()> {
         let output_dir = out.unwrap_or(std::env::current_dir()?);
         let name = out_name.unwrap_or_else(|| {
             let now = chrono::Utc::now();
-            format!("kernelsu_restore_{}.img", now.format("%Y%m%d_%H%M%S"))
+            format!("resukisu_restore_{}.img", now.format("%Y%m%d_%H%M%S"))
         });
         let output_image = output_dir.join(name);
         std::fs::write(&output_image, &new_boot_bytes).context("copy out new boot failed")?;
@@ -1052,7 +1052,7 @@ fn rebuild_without_ksu(
     cpio: &mut Cpio,
     vendor_ramdisk_idx: Option<usize>,
 ) -> Result<Vec<u8>> {
-    println!("- Removing KernelSU from boot image");
+    println!("- Removing ReSukiSU from boot image");
     cpio.rm("kernelsu.ko", false);
     if cpio.exists("init.real") {
         cpio.mv("init.real", "init")?;

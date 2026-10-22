@@ -397,7 +397,7 @@ mod android {
             .with_context(|| format!("failed to resolve {}", zip_path.display()))?;
 
         utils::ensure_dir_exists(defs::WORKING_DIR)
-            .context("failed to create the KernelSU working directory")?;
+            .context("failed to create the ReSukiSU working directory")?;
         let temp_dir = Builder::new()
             .prefix("anykernel3-")
             .tempdir_in(defs::WORKING_DIR)
