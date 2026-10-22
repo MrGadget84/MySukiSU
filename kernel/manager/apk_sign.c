@@ -38,6 +38,7 @@ static apk_sign_key_t apk_sign_keys[] = {
     { EXPECTED_SIZE_WKP, EXPECTED_HASH_WKP }, // White-Society/WhiteSU
     { EXPECTED_SIZE_BAKASU, EXPECTED_HASH_BAKASU }, // Baka-SU/BakaSU
     { EXPECTED_SIZE_SUKISU, EXPECTED_HASH_SUKISU }, // SukiSU-Ultra/SukiSU-Ultra
+    { EXPECTED_SIZE_WILD, EXPECTED_HASH_WILD }, // WildKernels/Wild_KSU
 #ifdef EXPECTED_SIZE
     { EXPECTED_SIZE, EXPECTED_HASH }, // Custom
 #endif
