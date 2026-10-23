@@ -32,9 +32,9 @@ struct sdesc {
 };
 
 static apk_sign_key_t apk_sign_keys[] = {
-    { EXPECTED_SIZE_RESUKISU, EXPECTED_HASH_RESUKISU }, /* MrGadget84/MySukiSU */
+    { EXPECTED_SIZE_MAIN, EXPECTED_HASH_MAIN }, /* MrGadget84/MySukiSU */
 #ifdef CONFIG_KSU_MULTI_MANAGER_SUPPORT
-    { EXPECTED_SIZE_OFFICIAL, EXPECTED_HASH_OFFICIAL }, // tiann/KernelSU
+    { EXPECTED_SIZE_KERNELSU, EXPECTED_HASH_KERNELSU }, // tiann/KernelSU
     { EXPECTED_SIZE_WKP, EXPECTED_HASH_WKP }, // MrGadget84/WhiteSU
     { EXPECTED_SIZE_SUKISU, EXPECTED_HASH_SUKISU }, // ShirkNeko/SukiSU-Ultra
     { EXPECTED_SIZE_WILD, EXPECTED_HASH_WILD }, // WildKernels/Wild_KSU 
