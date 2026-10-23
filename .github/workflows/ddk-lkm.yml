@@ -43,7 +43,7 @@ jobs:
 
     - name: Add Safe Directory
       run: |
-        git config --global --add safe.directory /__w/MrGadget84/ReSukiSU-Old
+        git config --global --add safe.directory /__w/MrGadget84/MySukiSU
 
     - name: Build kernelsu.ko
       if: ${{ inputs.arch == 'arm64' }}

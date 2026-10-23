@@ -173,7 +173,7 @@ baselineProfile {
 
 base {
     archivesName.set(
-        "ReSukiSU_${managerVersionName}_${managerVersionCode}"
+        "MySukiSU_${managerVersionName}_${managerVersionCode}"
     )
 }
 
