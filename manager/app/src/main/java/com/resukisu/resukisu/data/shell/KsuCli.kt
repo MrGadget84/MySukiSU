@@ -633,7 +633,8 @@ class KsuCliRepository(context: Context) {
     fun getZygiskImplement(): String {
         val zygiskModuleIds = listOf(
             "zygisksu",
-            "rezygisk"
+            "rezygisk",
+            "zygiskultra"
         )
 
         for (moduleId in zygiskModuleIds) {
