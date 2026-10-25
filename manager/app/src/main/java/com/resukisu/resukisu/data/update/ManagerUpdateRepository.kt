@@ -30,7 +30,7 @@ class ManagerUpdateRepository(
     }
 
     private val managerApkPattern = Regex(
-        "^ReSukiSU_(.+)_(\\d+)-(arm64-v8a|armeabi-v7a|x86_64|universal)-release\\.apk$"
+        "^MySukiSU_(.+)_(\\d+)-(arm64-v8a|armeabi-v7a|x86_64|universal)-release\\.apk$"
     )
     private val commitCountLinkPattern = Regex("""[?&]page=(\d+)>; rel="last"""")
 
@@ -83,7 +83,7 @@ class ManagerUpdateRepository(
             versionCode = versionCode,
             versionName = headSha.take(SHORT_SHA_LENGTH),
             abi = preferredAbi,
-            fileName = "ReSukiSU_${headSha.take(SHORT_SHA_LENGTH)}_" +
+            fileName = "MySukiSU_${headSha.take(SHORT_SHA_LENGTH)}_" +
                     "$versionCode-$preferredAbi-release.apk",
             source = ManagerApkSource.NightlyArtifact(
                 url = "https://nightly.link/$REPOSITORY/actions/runs/$runId/$RELEASE_ARTIFACT.zip",

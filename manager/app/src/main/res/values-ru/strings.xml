@@ -208,8 +208,8 @@
     <string name="settings_sulog_summary">Записывать связанные с Root действия в SU log.</string>
     <string name="feature_status_managed_summary">Эта функция управляется модулем</string>
     <string name="settings_mode_default">По умолчанию</string>
-    <string name="simple_mode">Режим простоты</string>
-    <string name="simple_mode_summary">Скрывать ненужные карточки при запуске</string>
+    <string name="simple_mode">Чистый главный экран</string>
+    <string name="simple_mode_summary">Скрывать ненужные карточки в меню главного экрана</string>
     <string name="theme_mode">Тема</string>
     <string name="theme_follow_system">Как в системе</string>
     <string name="theme_light">Светлая</string>
@@ -243,9 +243,9 @@
     <string name="app_settings">Настройки приложения</string>
     <string name="tools">Инструменты</string>
     <string name="no_apps_found">Приложение не найдено</string>
-    <string name="appearance_settings">Кастомизировать панель инструментов</string>
-    <string name="predictive_back_settings">Предиктивный жест \"Назад\"</string>
-    <string name="predictive_back_animation">Анимация предиктивного жеста \"Назад\"</string>
+    <string name="appearance_settings">Основная кастомизация</string>
+    <string name="predictive_back_settings"> Жест \"Назад\"</string>
+    <string name="predictive_back_animation">Анимация жеста \"Назад\"</string>
     <string name="predictive_back_exit_direction">Направления возвращения</string>
     <string name="predictive_back_animation_none">Нет</string>
     <string name="predictive_back_animation_scale">Масштабирование</string>
@@ -518,7 +518,7 @@
     <string name="manage_managers">Управление менеджерами</string>
     <string name="home_version_info">Сведения</string>
     <string name="home_status_info">Статус</string>
-    <string name="home_short_info">Суперпользователь: %1$d, модули: %2$d</string>
+    <string name="home_short_info">Рут: %1$d, модули: %2$d</string>
     <string name="home_kernel_version">Версия драйвера ядра</string>
     <string name="search_no_any_match">Контент не найден</string>
     <string name="beta_version_available">Новая бета %1$d доступна, кликните для обновления</string>
@@ -539,7 +539,7 @@
     <string name="require_kernel_version_gki">Требуется обновление ядра</string>
     <string name="home_card_icons_summary">Добавить иконки на информационные карточки главного экрана</string>
     <string name="home_card_icons">Показывать иконки на карточках главного экрана</string>
-    <string name="navigation_bar_badge_summary">Показывать количество суперпользователь/модуль в панели навигации</string>
+    <string name="navigation_bar_badge_summary">Показывать количество рут/модулей в панели навигации</string>
     <string name="navigation_bar_badge">Значки панели навигации</string>
     <string name="sort_name">Имя</string>
     <string name="sort_install_time">Время установки</string>

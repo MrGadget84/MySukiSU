@@ -339,18 +339,6 @@ fun ModulePage(bottomPadding: Dp) {
                         )
                     }
                 },
-                navigationContent = {
-                    IconButton(
-                        onClick = {
-                            navigator.push(Route.ModuleRepo)
-                        }
-                    ) {
-                        Icon(
-                            imageVector = Icons.TwoTone.Cloud,
-                            contentDescription = stringResource(id = R.string.module_repo),
-                        )
-                    }
-                },
                 scrollBehavior = scrollBehavior,
                 searchBarPlaceHolderText = stringResource(R.string.search_modules),
             )
